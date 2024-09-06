@@ -8,7 +8,6 @@ file_path = r"D:\Munster\ThirdSemester\Theses\data\datan\datatest.json"
 with open(file_path, 'r') as file:
     data = json.load(file)
 print(data.keys())
-#print(data)
 # Step 2: Extract geospatial data from the 'waypoints' key
 waypoints = data['waypoints']
 print(waypoints)
