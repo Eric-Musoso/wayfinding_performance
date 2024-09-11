@@ -2,12 +2,12 @@ import json
 import geopandas as gpd
 from shapely.geometry import Point
 import folium
-import dash
 from dash import dcc, html
 from dash.dependencies import Input, Output
 import dash_bootstrap_components as dbc
+import dash
 
-# Step 1: Load the JSON file and extract geospatial data for group 1
+# Step 1: Load the JSON files and extract geospatial data for both groups
 file_path = r"D:\Munster\ThirdSemester\Theses\data\datan\group1.json"
 with open(file_path, 'r') as file:
     data = json.load(file)
@@ -24,7 +24,7 @@ participants1 = data1['players']
 p1 = participants1[0]
 waypoints1 = data1['waypoints']
 
-# Step 2: Extract necessary information and create a GeoDataFrame
+# Step 2: Extract necessary information and create a GeoDataFrame for both groups
 extracted_data = []
 for wp in waypoints:
     position = wp.get('position', {})
@@ -48,7 +48,7 @@ for wp in waypoints:
     }
     extracted_data.append(data_entry)
 
-# Step 2: Extract necessary information for group 2
+# Extract data for group 2
 extracted_data1 = []
 for wp1 in waypoints1:
     position1 = wp1.get('position', {})
@@ -73,11 +73,7 @@ for wp1 in waypoints1:
     extracted_data1.append(data_entry1)
 
 # Combine both datasets
-alldata = extracted_data + extracted_data1  # concatenate lists
-
-# Check unique participants
-participants_set = set([d['participant'] for d in alldata])  # use set to get unique participants
-print(participants_set)
+alldata = extracted_data + extracted_data1
 
 # Convert to GeoDataFrame
 gdf = gpd.GeoDataFrame(
@@ -88,13 +84,23 @@ gdf = gpd.GeoDataFrame(
 
 # Filter the tasks for navigation
 nav_tasks = gdf[(gdf['taskCategory'] == 'nav') & (gdf['taskNo'] == 1)]
-print(nav_tasks)
 
 # Step 3: Create a function to generate the map
-def create_map(nav_tasks, opacity):
+def create_map(nav_tasks, opacity=0.5, basemap="OpenStreetMap"):
     map_center = [nav_tasks.geometry.y.mean(), nav_tasks.geometry.x.mean()]
-    m = folium.Map(location=map_center, zoom_start=14)
-
+    m = folium.Map(location=map_center, zoom_start=14, tiles=basemap)
+    
+    # Add tile layers for switching basemaps
+    folium.TileLayer('OpenStreetMap').add_to(m)
+    folium.TileLayer('CartoDB positron').add_to(m)
+    folium.TileLayer('CartoDB dark_matter').add_to(m)
+    folium.TileLayer(
+        tiles="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+        attr="Tiles © Esri — Source: Esri, DeLorme, NAVTEQ",
+        name='Imagery'
+    ).add_to(m)
+    folium.LayerControl().add_to(m)  # Enable layer control
+    
     # Color based on heading
     def get_color(heading):
         if heading < 90:
@@ -116,13 +122,28 @@ def create_map(nav_tasks, opacity):
             fill_opacity=opacity
         ).add_to(m)
 
+    # Add legend for heading colors
+    legend_html = '''
+    <div style="position: fixed; 
+                bottom: 50px; left: 50px; width: 150px; height: 150px; 
+                background-color: white; z-index:9999; font-size:14px;
+                border:2px solid grey; padding: 10px;">
+    <b>Heading Legend</b><br>
+    <i style="background:red;width:20px;height:20px;float:left;margin-right:8px"></i> 0-90°<br>
+    <i style="background:orange;width:20px;height:20px;float:left;margin-right:8px"></i> 90-180°<br>
+    <i style="background:yellow;width:20px;height:20px;float:left;margin-right:8px"></i> 180-270°<br>
+    <i style="background:blue;width:20px;height:20px;float:left;margin-right:8px"></i> 270-360°
+    </div>
+    '''
+    m.get_root().html.add_child(folium.Element(legend_html))
+
     map_path = "map.html"
     m.save(map_path)
     return map_path
 
-# Generate the map initially with default values (first participant and default opacity)
+# Generate the map initially with default values (first participant, default opacity, default basemap)
 default_participant = nav_tasks['participant'].unique()[0]
-initial_map_path = create_map(nav_tasks[nav_tasks['participant'] == default_participant], 0.5)
+initial_map_path = create_map(nav_tasks[nav_tasks['participant'] == default_participant])
 
 # Step 4: Set up Dash App
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
@@ -130,43 +151,38 @@ app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 app.layout = dbc.Container([
     dbc.Row([
         dbc.Col([
-            html.Label("Select Task Participant:"),
+            html.H1("Wayfinding Performance among Different Users Dashboard", style={'text-align': 'center', 'color': 'white'})
+        ])
+    ], style={'background-color': 'black'}),
+
+    dbc.Row([
+        dbc.Col([
+            html.Label("Select Task Participant:", style={'color': 'white'}),
             dcc.Dropdown(
                 id='task-participant-dropdown',
                 options=[{'label': participant, 'value': participant} for participant in nav_tasks['participant'].unique()],
-                value=default_participant  # Default selection
-            )
-        ], width=4),
-
-        dbc.Col([
-            html.Label("Map Opacity:"),
-            dcc.Slider(
-                id='opacity-slider',
-                min=0,
-                max=1,
-                step=0.1,
-                value=0.5,  # Default opacity
-                marks={0: '0', 1: '1'}
+                value=default_participant  # Default participant selection
             )
         ], width=4)
     ]),
 
     dbc.Row([
         dbc.Col(
-            html.Iframe(id="map", srcDoc=open(initial_map_path, "r").read(), width="50%", height="400")
+            html.Iframe(id="map", srcDoc=open(initial_map_path, "r").read(), width="100%", height="500")
         )
     ])
-])
+], fluid=True, style={'background-color': 'black'})
 
 # Step 5: Define app callback for map updates
 @app.callback(
     Output('map', 'srcDoc'),
-    [Input('task-participant-dropdown', 'value'),
-     Input('opacity-slider', 'value')]
+    [Input('task-participant-dropdown', 'value')]
 )
-def update_map(selected_participant, opacity):
+def update_map(selected_participant):
     filtered_data = nav_tasks[nav_tasks['participant'] == selected_participant]
-    map_path = create_map(filtered_data, opacity)
+    default_opacity = 0.5  # Set default opacity
+    default_basemap = 'OpenStreetMap'  # Default basemap
+    map_path = create_map(filtered_data, default_opacity, default_basemap)
     return open(map_path, 'r').read()
 
 # Run the Dash app
