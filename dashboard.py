@@ -7,7 +7,7 @@ from dash import dcc, html
 from dash.dependencies import Input, Output
 import dash_bootstrap_components as dbc
 
-# Step 1: Load the JSON file and extract geospatial data
+# Step 1: Load the JSON file and extract geospatial data for group 1
 file_path = r"D:\Munster\ThirdSemester\Theses\data\datan\group1.json"
 with open(file_path, 'r') as file:
     data = json.load(file)
@@ -15,6 +15,14 @@ with open(file_path, 'r') as file:
 participants = data['players']
 p = participants[0]
 waypoints = data['waypoints']
+
+file_path1 = r"D:\Munster\ThirdSemester\Theses\data\datan\group2.json"
+with open(file_path1, 'r') as file:
+    data1 = json.load(file)
+
+participants1 = data1['players']
+p1 = participants1[0]
+waypoints1 = data1['waypoints']
 
 # Step 2: Extract necessary information and create a GeoDataFrame
 extracted_data = []
@@ -40,13 +48,45 @@ for wp in waypoints:
     }
     extracted_data.append(data_entry)
 
+# Step 2: Extract necessary information for group 2
+extracted_data1 = []
+for wp1 in waypoints1:
+    position1 = wp1.get('position', {})
+    coords1 = position1.get('coords', {})
+    interaction1 = wp1.get('interaction', {})
+
+    data_entry1 = {
+        'timestamp': wp1.get('timestamp'),
+        'latitude': coords1.get('latitude'),
+        'longitude': coords1.get('longitude'),
+        'altitude': coords1.get('altitude'),
+        'speed': coords1.get('speed'),
+        'heading': coords1.get('heading'),
+        'accuracy': coords1.get('accuracy'),
+        'taskNo': wp1.get('taskNo'),
+        'taskCategory': wp1.get('taskCategory'),
+        'panCount': interaction1.get('panCount'),
+        'zoomCount': interaction1.get('zoomCount'),
+        'rotation': interaction1.get('rotation'),
+        'participant': wp1.get('participant', p1)
+    }
+    extracted_data1.append(data_entry1)
+
+# Combine both datasets
+alldata = extracted_data + extracted_data1  # concatenate lists
+
+# Check unique participants
+participants_set = set([d['participant'] for d in alldata])  # use set to get unique participants
+print(participants_set)
+
 # Convert to GeoDataFrame
 gdf = gpd.GeoDataFrame(
-    extracted_data,
-    geometry=[Point(data['longitude'], data['latitude']) for data in extracted_data],
+    alldata,
+    geometry=[Point(data['longitude'], data['latitude']) for data in alldata],
     crs="EPSG:4326"  # WGS84 Latitude/Longitude
 )
 
+# Filter the tasks for navigation
 nav_tasks = gdf[(gdf['taskCategory'] == 'nav') & (gdf['taskNo'] == 1)]
 print(nav_tasks)
 
