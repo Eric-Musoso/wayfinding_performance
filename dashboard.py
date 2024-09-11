@@ -8,7 +8,7 @@ from dash.dependencies import Input, Output
 import dash_bootstrap_components as dbc
 
 # Step 1: Load the JSON file and extract geospatial data
-file_path = r"D:\Munster\ThirdSemester\Theses\data\datan\datatest.json"
+file_path = r"D:\Munster\ThirdSemester\Theses\data\datan\group1.json"
 with open(file_path, 'r') as file:
     data = json.load(file)
 
