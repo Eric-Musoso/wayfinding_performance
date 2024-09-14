@@ -1,11 +1,15 @@
 import json
+import pandas as pd
 import geopandas as gpd
 from shapely.geometry import Point
 import folium
-from dash import dcc, html
+from dash import dcc, html, dash_table
 from dash.dependencies import Input, Output
 import dash_bootstrap_components as dbc
 import dash
+from datetime import timedelta
+import plotly.express as px
+# import matplotlib.pyplot as plt
 
 # Step 1: Load the JSON files and extract geospatial data for both groups
 file_path = r"D:\Munster\ThirdSemester\Theses\data\datan\group1.json"
@@ -82,8 +86,22 @@ gdf = gpd.GeoDataFrame(
     crs="EPSG:4326"  # WGS84 Latitude/Longitude
 )
 
-# Filter the tasks for navigation
-nav_tasks = gdf[(gdf['taskCategory'] == 'nav') & (gdf['taskNo'] == 1)]
+# Filter the tasks for navigation (safe copy with .loc[])
+nav_tasks = gdf.loc[(gdf['taskCategory'] == 'nav') & (gdf['taskNo'] == 1)].copy()
+
+# Filter rows with speed > 0 and make a copy
+df_filtered = nav_tasks.loc[nav_tasks['speed'] > 0].copy()
+
+# Convert 'timestamp' column to datetime safely
+df_filtered['timestamp'] = pd.to_datetime(df_filtered['timestamp'])
+
+# Group by 'participant' and calculate 'duration' and 'route length'
+df_length = df_filtered.groupby('participant').agg(
+    duration=pd.NamedAgg(column='timestamp', aggfunc=lambda x: x.max() - x.min()),  # Calculate duration
+    route_length=pd.NamedAgg(column='speed', aggfunc='sum')  # Sum the speed to get route length
+).reset_index()
+
+# print(df_length)
 
 # Step 3: Create a function to generate the map
 def create_map(nav_tasks, opacity=0.5, basemap="OpenStreetMap"):
@@ -151,7 +169,7 @@ app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 app.layout = dbc.Container([
     dbc.Row([
         dbc.Col([
-            html.H1("Wayfinding Performance among Different Users Dashboard", style={'text-align': 'center', 'color': 'white'})
+            html.H1("Wayfinding Performance among Different Users", style={'text-align': 'center', 'color': 'white'})
         ])
     ], style={'background-color': 'black'}),
 
@@ -167,23 +185,41 @@ app.layout = dbc.Container([
     ]),
 
     dbc.Row([
+        # Left Column (Map)
         dbc.Col(
-            html.Iframe(id="map", srcDoc=open(initial_map_path, "r").read(), width="100%", height="500")
-        )
+            html.Iframe(id="map", srcDoc=open(initial_map_path, "r").read(), width="100%", height="500",),
+            width=6  
+        ),
+        
+        # Right Column (Data and Graph)
+        dbc.Col([
+            html.Div(children='Route Length(Meters) Vs Time(DD/HH/MM/SS)', style={'text-align': 'center', 'color': 'white'}),
+            html.Hr(),
+            dcc.RadioItems(options=['route_length', 'duration'], value='route_length', id='controls-and-radio-item', style={'color': 'white'}),
+            dash_table.DataTable(data=df_length.to_dict('records'), page_size=6, style_table={'height': '100px', 'overflowY': 'auto'}),
+            dcc.Graph(figure={}, id='controls-and-graph')
+        ], width=6)  
     ])
 ], fluid=True, style={'background-color': 'black'})
 
 # Step 5: Define app callback for map updates
 @app.callback(
-    Output('map', 'srcDoc'),
-    [Input('task-participant-dropdown', 'value')]
+    [Output('map', 'srcDoc'),
+     Output('controls-and-graph', 'figure')],
+    [Input('task-participant-dropdown', 'value'),
+     Input('controls-and-radio-item', 'value')]
 )
-def update_map(selected_participant):
+def update_map(selected_participant, col_chosen):
+    # Update map based on the selected participant
     filtered_data = nav_tasks[nav_tasks['participant'] == selected_participant]
     default_opacity = 0.5  # Set default opacity
     default_basemap = 'OpenStreetMap'  # Default basemap
     map_path = create_map(filtered_data, default_opacity, default_basemap)
-    return open(map_path, 'r').read()
+
+    # Update graph based on selected radio button choice
+    fig = px.histogram(df_length, x='participant', y=col_chosen)
+
+    return open(map_path, 'r').read(), fig
 
 # Run the Dash app
 if __name__ == "__main__":
