@@ -1,3 +1,8 @@
 dash==2.6.0
+dash-bootstrap-components==1.3.1
 pandas
+geopandas
+shapely
+folium
+plotly
 gunicorn
