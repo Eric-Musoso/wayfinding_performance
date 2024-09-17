@@ -1,0 +1,1 @@
+This codes snipet serves as guide on how wayfind are being performed among different people where they are navigating through specisific environment. This final output is will be interactive dashboard which can be used by people to learn how this tasks are being completed among different people and it is still under development.

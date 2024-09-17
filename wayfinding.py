@@ -180,6 +180,7 @@ initial_map_path = create_map(nav_tasks[nav_tasks['participant'] == default_part
 
 # Step 4: Set up Dash App
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
 
 app.layout = dbc.Container([
     dbc.Row([
