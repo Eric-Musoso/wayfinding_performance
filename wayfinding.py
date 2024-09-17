@@ -2,6 +2,7 @@ import json
 import pandas as pd
 import geopandas as gpd
 from shapely.geometry import Point
+from shapely.geometry import LineString
 import folium
 from dash import dcc, html, dash_table
 from dash.dependencies import Input, Output
@@ -89,19 +90,33 @@ gdf = gpd.GeoDataFrame(
 # Filter the tasks for navigation (safe copy with .loc[])
 nav_tasks = gdf.loc[(gdf['taskCategory'] == 'nav') & (gdf['taskNo'] == 1)].copy()
 
-# Filter rows with speed > 0 and make a copy
-df_filtered = nav_tasks.loc[nav_tasks['speed'] > 0].copy()
-
 # Convert 'timestamp' column to datetime safely
-df_filtered['timestamp'] = pd.to_datetime(df_filtered['timestamp'])
-
+nav_tasks['timestamp'] = pd.to_datetime(nav_tasks['timestamp'])
 # Group by 'participant' and calculate 'duration' and 'route length'
-df_length = df_filtered.groupby('participant').agg(
-    duration=pd.NamedAgg(column='timestamp', aggfunc=lambda x: x.max() - x.min()),  # Calculate duration
-    route_length=pd.NamedAgg(column='speed', aggfunc='sum')  # Sum the speed to get route length
+
+df_duration = nav_tasks.groupby('participant').agg(
+    Duration=pd.NamedAgg(column='timestamp', aggfunc=lambda x: x.max() - x.min()),  # Calculate duration
 ).reset_index()
 
-# print(df_length)
+lines = (
+    nav_tasks.groupby('participant')
+    .apply(lambda x: LineString(x.sort_values('timestamp')[['longitude', 'latitude']].values))
+    .reset_index()
+)
+
+gdf_lines = gpd.GeoDataFrame(
+    lines, 
+    geometry=lines[0],  # The LineString geometries created in the lambda function
+    crs="EPSG:4326"
+)
+gdf_lines.drop(columns=0, inplace=True)
+
+gdf_lines_projected = gdf_lines.to_crs(epsg=3395)
+gdf_lines_projected['Route_length'] = gdf_lines_projected.length / 1000
+gdf_lines_with_length = gdf_lines_projected.to_crs(epsg=4326)
+gdf1_length = pd.merge(gdf_lines_with_length, df_duration, on='participant')
+df_length = pd.DataFrame(gdf1_length.drop(columns='geometry'))
+print(df_length)
 
 # Step 3: Create a function to generate the map
 def create_map(nav_tasks, opacity=0.5, basemap="OpenStreetMap"):
@@ -178,7 +193,7 @@ app.layout = dbc.Container([
             html.Label("Select Task Participant:", style={'color': 'white'}),
             dcc.Dropdown(
                 id='task-participant-dropdown',
-                options=[{'label': participant, 'value': participant} for participant in nav_tasks['participant'].unique()],
+                options=[{'label': Participant, 'value': Participant} for Participant in nav_tasks['participant'].unique()],
                 value=default_participant  # Default participant selection
             )
         ], width=4)
@@ -187,15 +202,15 @@ app.layout = dbc.Container([
     dbc.Row([
         # Left Column (Map)
         dbc.Col(
-            html.Iframe(id="map", srcDoc=open(initial_map_path, "r").read(), width="100%", height="500",),
+            html.Iframe(id="map", srcDoc=open(initial_map_path, "r").read(), width="100%", height="500"),
             width=6  
         ),
         
         # Right Column (Data and Graph)
         dbc.Col([
-            html.Div(children='Route Length(Meters) Vs Time(DD/HH/MM/SS)', style={'text-align': 'center', 'color': 'white'}),
+            html.Div(children='Route Length(Km) Vs Time(DD/HH/MM/SS)', style={'text-align': 'center', 'color': 'white'}),
             html.Hr(),
-            dcc.RadioItems(options=['route_length', 'duration'], value='route_length', id='controls-and-radio-item', style={'color': 'white'}),
+            dcc.RadioItems(options=['Route_length', 'Duration'], value='Route_length', id='controls-and-radio-item', style={'color': 'white'}),
             dash_table.DataTable(data=df_length.to_dict('records'), page_size=6, style_table={'height': '100px', 'overflowY': 'auto'}),
             dcc.Graph(figure={}, id='controls-and-graph')
         ], width=6)  
