@@ -1,0 +1,6245 @@
+{
+  "waypoints": [
+    {
+      "timestamp": "2024-08-20T10:57:15.904Z",
+      "position": {
+        "timestamp": 1724151434309,
+        "coords": {
+          "latitude": 51.96532536354722,
+          "speed": -1,
+          "longitude": 7.626712324525177,
+          "accuracy": 35,
+          "altitudeAccuracy": 26.62129020690918,
+          "altitude": 59.01311111450195,
+          "heading": -1
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.60203773799546,
+            "lat": 51.94632966239607
+          },
+          "_ne": {
+            "lng": 7.607571762291059,
+            "lat": 51.952984136231294
+          }
+        },
+        "center": {
+          "lng": 7.604804750142421,
+          "lat": 51.949657022743224
+        },
+        "zoom": 15.730775389738067,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 200.62887573242188,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 0
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:18.534Z",
+      "position": {
+        "coords": {
+          "altitudeAccuracy": 20.645172119140625,
+          "speed": -1,
+          "heading": -1,
+          "latitude": 51.96532420944014,
+          "altitude": 58.81895065307617,
+          "longitude": 7.626713148787614,
+          "accuracy": 35
+        },
+        "timestamp": 1724151435887
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 197.6178436279297,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 16.117080688476562
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:19.045Z",
+      "position": {
+        "coords": {
+          "altitudeAccuracy": 18.91340446472168,
+          "speed": -1,
+          "heading": -1,
+          "latitude": 51.96530483859647,
+          "altitude": 58.78194808959961,
+          "longitude": 7.626769391685321,
+          "accuracy": 35
+        },
+        "timestamp": 1724151438504
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 204.94737243652344,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 16.117080688476562
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:20.030Z",
+      "position": {
+        "coords": {
+          "altitudeAccuracy": 4,
+          "speed": 0,
+          "heading": -1,
+          "latitude": 51.96529544429105,
+          "altitude": 57.01833724975586,
+          "longitude": 7.626994103200386,
+          "accuracy": 15.912813152403995
+        },
+        "timestamp": 1724151439000
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 181.47434997558594,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 47.363433837890625
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:21.025Z",
+      "position": {
+        "timestamp": 1724151440000,
+        "coords": {
+          "heading": -1,
+          "altitude": 57.99813461303711,
+          "accuracy": 12.670848875225792,
+          "longitude": 7.626960156492541,
+          "altitudeAccuracy": 4,
+          "speed": 0,
+          "latitude": 51.96530759805065
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 192.61402893066406,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 47.363433837890625
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:22.026Z",
+      "position": {
+        "timestamp": 1724151441000,
+        "coords": {
+          "heading": -1,
+          "altitude": 58.90353012084961,
+          "accuracy": 9.173893070072529,
+          "longitude": 7.626958899207065,
+          "altitudeAccuracy": 4,
+          "speed": 0,
+          "latitude": 51.96525177457553
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 190.62486267089844,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 47.363433837890625
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:23.026Z",
+      "position": {
+        "coords": {
+          "altitudeAccuracy": 4,
+          "speed": 0,
+          "heading": -1,
+          "latitude": 51.965246829252656,
+          "altitude": 59.34103012084961,
+          "longitude": 7.626966778196047,
+          "accuracy": 8.423817390224237
+        },
+        "timestamp": 1724151442000
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 143.48277282714844,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 93.69648742675781
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:24.026Z",
+      "position": {
+        "coords": {
+          "altitudeAccuracy": 4,
+          "speed": 0,
+          "heading": -1,
+          "latitude": 51.965240375187214,
+          "altitude": 60.08529281616211,
+          "longitude": 7.626964850358317,
+          "accuracy": 7.832790771846799
+        },
+        "timestamp": 1724151443000
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 93.22673797607422,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 142.0101776123047
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:25.025Z",
+      "position": {
+        "timestamp": 1724151443999,
+        "coords": {
+          "altitudeAccuracy": 4,
+          "longitude": 7.626973064623425,
+          "speed": 0,
+          "altitude": 60.85653305053711,
+          "heading": -1,
+          "accuracy": 6.709024551687179,
+          "latitude": 51.96523869880658
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 81.7045669555664,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 157.91448211669922
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:26.026Z",
+      "position": {
+        "timestamp": 1724151444999,
+        "coords": {
+          "latitude": 51.965229143436964,
+          "altitude": 60.61996078491211,
+          "speed": 0,
+          "accuracy": 6.704961148049795,
+          "altitudeAccuracy": 4,
+          "heading": -1,
+          "longitude": 7.6269859727543095
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 85.65929412841797,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 157.91448211669922
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:27.027Z",
+      "position": {
+        "timestamp": 1724151445999,
+        "coords": {
+          "altitudeAccuracy": 4,
+          "longitude": 7.626966359100888,
+          "speed": 0,
+          "altitude": 62.22567367553711,
+          "heading": -1,
+          "latitude": 51.965245027143474,
+          "accuracy": 6.027108943565178
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 89.99236297607422,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 157.91448211669922
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:28.041Z",
+      "position": {
+        "timestamp": 1724151446999,
+        "coords": {
+          "altitudeAccuracy": 4,
+          "longitude": 7.6269809436124065,
+          "speed": 0,
+          "altitude": 63.65999984741211,
+          "heading": -1,
+          "accuracy": 5.029172312377339,
+          "latitude": 51.965240668553825
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 94.50386810302734,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 157.91448211669922
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:29.029Z",
+      "position": {
+        "timestamp": 1724151447999,
+        "coords": {
+          "altitudeAccuracy": 4,
+          "longitude": 7.626989996067832,
+          "speed": 0,
+          "altitude": 64.11715316772461,
+          "heading": -1,
+          "latitude": 51.96522562303763,
+          "accuracy": 4.5107768211376085
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 195.39035034179688,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 263.19732666015625
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:30.030Z",
+      "position": {
+        "coords": {
+          "altitudeAccuracy": 4,
+          "speed": 0,
+          "heading": -1,
+          "latitude": 51.96522361138087,
+          "altitude": 64.50655746459961,
+          "longitude": 7.626983122907231,
+          "accuracy": 4.348449452045743
+        },
+        "timestamp": 1724151448999
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 218.62998962402344,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 294.6495361328125
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:31.029Z",
+      "position": {
+        "coords": {
+          "altitudeAccuracy": 4.001484783198886,
+          "speed": 0,
+          "heading": -1,
+          "latitude": 51.965223611381205,
+          "altitude": 64.50655753258616,
+          "longitude": 7.626983122907231,
+          "accuracy": 4.546834034356855
+        },
+        "timestamp": 1724151449999
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 216.03868103027344,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 294.6495361328125
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:32.036Z",
+      "position": {
+        "timestamp": 1724151450999,
+        "coords": {
+          "latitude": 51.96521443319722,
+          "altitude": 64.88332755118608,
+          "speed": 0,
+          "accuracy": 4.453905689408757,
+          "altitudeAccuracy": 4.00216983626316,
+          "heading": -1,
+          "longitude": 7.626979015774677
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 218.590576171875,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 294.6495361328125
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:33.035Z",
+      "position": {
+        "timestamp": 1724151451999,
+        "coords": {
+          "heading": -1,
+          "altitude": 65.46468741539866,
+          "accuracy": 4.408836715782638,
+          "longitude": 7.626981949440789,
+          "altitudeAccuracy": 4.0135664674876335,
+          "speed": 0,
+          "latitude": 51.965211960535804
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 244.55282592773438,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 310.38128662109375
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:34.023Z",
+      "position": {
+        "timestamp": 1724151452999,
+        "coords": {
+          "longitude": 7.626985218383025,
+          "latitude": 51.96519884285733,
+          "altitude": 64.99966055899858,
+          "speed": 0,
+          "altitudeAccuracy": 4.0215395848372815,
+          "heading": -1,
+          "accuracy": 4.390062300625102
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 237.47299194335938,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 325.99949645996094
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:35.030Z",
+      "position": {
+        "timestamp": 1724151453999,
+        "coords": {
+          "altitudeAccuracy": 4.032924224846348,
+          "longitude": 7.626986727125593,
+          "speed": 0,
+          "altitude": 65.34524161368608,
+          "heading": -1,
+          "accuracy": 4.363049902146222,
+          "latitude": 51.96519452617719
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 221.5912322998047,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 341.8290252685547
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:36.026Z",
+      "position": {
+        "timestamp": 1724151454999,
+        "coords": {
+          "altitudeAccuracy": 4.032248735429245,
+          "speed": 0,
+          "heading": -1,
+          "latitude": 51.965189497035304,
+          "altitude": 65.72433096915483,
+          "longitude": 7.626988403506229,
+          "accuracy": 4.3646593181688145
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 223.50595092773438,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 341.8290252685547
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:37.024Z",
+      "position": {
+        "timestamp": 1724151455999,
+        "coords": {
+          "longitude": 7.626987732953976,
+          "speed": 0,
+          "accuracy": 4.433586004021826,
+          "altitudeAccuracy": 4.002979138064027,
+          "altitude": 66.08175284508616,
+          "heading": -1,
+          "latitude": 51.96519213733479
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 227.92379760742188,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 341.8290252685547
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:38.025Z",
+      "position": {
+        "coords": {
+          "altitudeAccuracy": 4.016820637295622,
+          "speed": 0,
+          "heading": -1,
+          "latitude": 51.96519494527236,
+          "altitude": 66.77791983820498,
+          "longitude": 7.626987816773007,
+          "accuracy": 4.401187984004826
+        },
+        "timestamp": 1724151456999
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 223.4053955078125,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 341.8290252685547
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:39.025Z",
+      "position": {
+        "timestamp": 1724151457999,
+        "coords": {
+          "altitudeAccuracy": 3.452630555821847,
+          "speed": 0,
+          "heading": -1,
+          "latitude": 51.965194274720105,
+          "altitude": 67.17245108727366,
+          "longitude": 7.626987900592042,
+          "accuracy": 4.680158039830936
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 222.9837188720703,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 341.8290252685547
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:40.027Z",
+      "position": {
+        "coords": {
+          "altitudeAccuracy": 3.4789006637617694,
+          "speed": 0,
+          "heading": -1,
+          "latitude": 51.965197417933794,
+          "altitude": 68.13717276696116,
+          "longitude": 7.626986643306566,
+          "accuracy": 4.660663815860007
+        },
+        "timestamp": 1724151458999
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 225.11656188964844,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 341.8290252685547
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:41.027Z",
+      "position": {
+        "timestamp": 1724151459999,
+        "coords": {
+          "heading": -1,
+          "accuracy": 4.64418140032896,
+          "altitude": 68.46340567804873,
+          "latitude": 51.965196831200565,
+          "speed": 0,
+          "longitude": 7.626986056573343,
+          "altitudeAccuracy": 3.5008736272004133
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 220.56631469726562,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 341.8290252685547
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:42.026Z",
+      "position": {
+        "timestamp": 1724151460999,
+        "coords": {
+          "altitudeAccuracy": 3.5113086384453314,
+          "speed": 0,
+          "heading": -1,
+          "latitude": 51.965196621652986,
+          "altitude": 68.52767569664866,
+          "longitude": 7.62698597275431,
+          "accuracy": 4.636296871250592
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 210.9495849609375,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 357.0397186279297
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:43.026Z",
+      "position": {
+        "coords": {
+          "altitudeAccuracy": 3.5220490164299973,
+          "speed": 0,
+          "heading": -1,
+          "latitude": 51.96519662165299,
+          "altitude": 68.67593009024858,
+          "longitude": 7.626985637478183,
+          "accuracy": 4.628143014066584
+        },
+        "timestamp": 1724151461999
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 156.93148803710938,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 406.3992004394531
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:44.027Z",
+      "position": {
+        "timestamp": 1724151462999,
+        "coords": {
+          "altitudeAccuracy": 3.5066144001381674,
+          "speed": 0,
+          "heading": -1,
+          "latitude": 51.96519372989639,
+          "altitude": 67.99978262931108,
+          "longitude": 7.626985637478183,
+          "accuracy": 4.639848325272333
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 125.41048431396484,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 437.5609893798828
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:45.031Z",
+      "position": {
+        "coords": {
+          "altitudeAccuracy": 3.487806060077715,
+          "speed": 0,
+          "heading": -1,
+          "latitude": 51.96518937130675,
+          "altitude": 67.56045157462358,
+          "longitude": 7.626985134563994,
+          "accuracy": 4.654003214446032
+        },
+        "timestamp": 1724151463999
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 109.01445770263672,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 452.5892333984375
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:46.030Z",
+      "position": {
+        "timestamp": 1724151464999,
+        "coords": {
+          "altitudeAccuracy": 3.5012216093130277,
+          "speed": 0,
+          "heading": -1,
+          "latitude": 51.965190167587544,
+          "altitude": 67.81869132071733,
+          "longitude": 7.626985888935278,
+          "accuracy": 4.643919064246096
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 87.52446746826172,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 483.0593719482422
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:47.026Z",
+      "position": {
+        "coords": {
+          "heading": -1,
+          "accuracy": 4.629999065615527,
+          "altitude": 67.46023184806108,
+          "latitude": 51.965187611107076,
+          "speed": 0,
+          "longitude": 7.62698052451725,
+          "altitudeAccuracy": 3.5196087403556913
+        },
+        "timestamp": 1724151465999
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 94.80115509033203,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 483.0593719482422
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:48.024Z",
+      "position": {
+        "timestamp": 1724151466999,
+        "coords": {
+          "longitude": 7.626975160099219,
+          "speed": 0,
+          "accuracy": 4.6087595613018735,
+          "altitudeAccuracy": 3.5473754155568864,
+          "altitude": 65.28829581290483,
+          "heading": -1,
+          "latitude": 51.965158483993555
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 95.07849884033203,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 483.0593719482422
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:49.028Z",
+      "position": {
+        "coords": {
+          "altitudeAccuracy": 3.5473753962924284,
+          "speed": 0,
+          "heading": -1,
+          "latitude": 51.96516535715416,
+          "altitude": 66.00973135977983,
+          "longitude": 7.62698253617401,
+          "accuracy": 4.608759576129782
+        },
+        "timestamp": 1724151467999
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 92.54925537109375,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 483.0593719482422
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:50.025Z",
+      "position": {
+        "timestamp": 1724151468999,
+        "coords": {
+          "heading": -1,
+          "accuracy": 4.608759563420909,
+          "altitude": 65.30056387931108,
+          "latitude": 51.96515932218387,
+          "speed": 0.20999999344348907,
+          "longitude": 7.62697524391825,
+          "altitudeAccuracy": 3.5473754128038304
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 94.6369857788086,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 514.7382507324219
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:51.026Z",
+      "position": {
+        "timestamp": 1724151469999,
+        "coords": {
+          "longitude": 7.62694185816437,
+          "speed": 0.28247551333173504,
+          "accuracy": 5.448957183011006,
+          "altitudeAccuracy": 2.033077138354961,
+          "altitude": 56.15954461880028,
+          "heading": -1,
+          "latitude": 51.96506532783117
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 42.57497024536133,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 563.314640045166
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:52.026Z",
+      "position": {
+        "timestamp": 1724151470999,
+        "coords": {
+          "altitudeAccuracy": 1.725569002403612,
+          "speed": 0.14427261861414126,
+          "heading": -1,
+          "latitude": 51.9650616218632,
+          "altitude": 56.179206505417824,
+          "longitude": 7.626962640220351,
+          "accuracy": 5.609977161546107
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 48.039493560791016,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 578.8818550109863
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:53.027Z",
+      "position": {
+        "timestamp": 1724151471999,
+        "coords": {
+          "altitudeAccuracy": 1.6735512532607595,
+          "speed": 0.12220401250429248,
+          "heading": -1,
+          "latitude": 51.965062796732006,
+          "altitude": 56.209507714025676,
+          "longitude": 7.626967373399731,
+          "accuracy": 5.687053485366571
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 53.82673263549805,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 578.8818550109863
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:54.028Z",
+      "position": {
+        "timestamp": 1724151472999,
+        "coords": {
+          "latitude": 51.96506768909971,
+          "altitude": 56.22930024005473,
+          "speed": 0.10293389225110078,
+          "accuracy": 5.7668074706336325,
+          "altitudeAccuracy": 1.6123916223878985,
+          "heading": -1,
+          "longitude": 7.626962125150262
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 55.76585006713867,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 578.8818550109863
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:55.028Z",
+      "position": {
+        "timestamp": 1724151473999,
+        "coords": {
+          "longitude": 7.626966631249689,
+          "latitude": 51.965067225636126,
+          "altitude": 56.19545052293688,
+          "speed": 0.0615202065684557,
+          "altitudeAccuracy": 1.6579196078332137,
+          "heading": -1,
+          "accuracy": 5.727725943669865
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 57.7657585144043,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 578.8818550109863
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:56.032Z",
+      "position": {
+        "timestamp": 1724151474999,
+        "coords": {
+          "altitudeAccuracy": 1.8681255761740332,
+          "speed": 0.08021593383632149,
+          "heading": -1,
+          "latitude": 51.96508179652682,
+          "altitude": 56.234512000344694,
+          "longitude": 7.626954783013277,
+          "accuracy": 5.5076895214266814
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 40.867000579833984,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 598.128116607666
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:57.028Z",
+      "position": {
+        "timestamp": 1724151475999,
+        "coords": {
+          "altitudeAccuracy": 2.098456629819016,
+          "speed": 0.03122159948324565,
+          "heading": -1,
+          "latitude": 51.965095357791974,
+          "altitude": 56.17249581310898,
+          "longitude": 7.6269464809260725,
+          "accuracy": 5.4241143798372695
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602508778560576,
+            "lat": 51.946896111970744
+          },
+          "_ne": {
+            "lng": 7.6071007203942145,
+            "lat": 51.95241776405416
+          }
+        },
+        "center": {
+          "lng": 7.604804749477125,
+          "lat": 51.94965702299473
+        },
+        "zoom": 16,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 337.9333801269531,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotation": 668.0621032714844
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:58.029Z",
+      "position": {
+        "coords": {
+          "accuracy": 5.371621550433974,
+          "altitudeAccuracy": 2.2293987870504766,
+          "latitude": 51.965095116809174,
+          "longitude": 7.626944052656056,
+          "heading": -1,
+          "speed": 0.014855131170891782,
+          "altitude": 56.1375186778605
+        },
+        "timestamp": 1724151476999
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.5979585519498585,
+            "lat": 51.93927468343816
+          },
+          "_ne": {
+            "lng": 7.613910361215915,
+            "lat": 51.958456523428225
+          }
+        },
+        "center": {
+          "lng": 7.605934456582872,
+          "lat": 51.94886662898895
+        },
+        "zoom": 14.20345620774657,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 339.22119140625,
+      "interaction": {
+        "panCount": 1,
+        "zoomCount": 1,
+        "rotation": 668.0621032714844
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:57:59.029Z",
+      "position": {
+        "coords": {
+          "accuracy": 5.48224083294287,
+          "altitudeAccuracy": 1.9415386893911502,
+          "latitude": 51.965098682321766,
+          "longitude": 7.626951851019387,
+          "heading": -1,
+          "speed": 0.2227764288787053,
+          "altitude": 56.08279742859304
+        },
+        "timestamp": 1724151477999
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.590894594685608,
+            "lat": 51.929079824269735
+          },
+          "_ne": {
+            "lng": 7.622080627935475,
+            "lat": 51.96658148073544
+          }
+        },
+        "center": {
+          "lng": 7.606487611310627,
+          "lat": 51.9478345722998
+        },
+        "zoom": 13.236276213690182,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 340.778564453125,
+      "interaction": {
+        "panCount": 2,
+        "zoomCount": 2,
+        "rotation": 668.0621032714844
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:00.030Z",
+      "position": {
+        "timestamp": 1724151478999,
+        "coords": {
+          "latitude": 51.96510089346097,
+          "longitude": 7.626953620857525,
+          "altitude": 56.05403065495193,
+          "speed": 0.15842186127264007,
+          "altitudeAccuracy": 1.6907129234533942,
+          "heading": -1,
+          "accuracy": 5.627172010974195
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.570864454845207,
+            "lat": 51.90694157216103
+          },
+          "_ne": {
+            "lng": 7.6401943485475385,
+            "lat": 51.99031026965855
+          }
+        },
+        "center": {
+          "lng": 7.6055294016966855,
+          "lat": 51.94864529321492
+        },
+        "zoom": 12.083698723935022,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 343.374755859375,
+      "interaction": {
+        "panCount": 4,
+        "zoomCount": 4,
+        "rotation": 668.0621032714844
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:01.032Z",
+      "position": {
+        "timestamp": 1724151480000,
+        "coords": {
+          "altitudeAccuracy": 1.5597224987952625,
+          "speed": 0.37350735240747884,
+          "heading": -1,
+          "latitude": 51.965098484343635,
+          "altitude": 56.03218128718436,
+          "longitude": 7.6269627599098575,
+          "accuracy": 5.7676061940552
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.60215916189739,
+            "lat": 51.946679949368104
+          },
+          "_ne": {
+            "lng": 7.610190560021692,
+            "lat": 51.95633703054713
+          }
+        },
+        "center": {
+          "lng": 7.60617486095839,
+          "lat": 51.95150874992055
+        },
+        "zoom": 15.193453210155656,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 342.5260925292969,
+      "interaction": {
+        "panCount": 4,
+        "zoomCount": 4.5,
+        "rotation": 668.0621032714844
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:02.024Z",
+      "position": {
+        "timestamp": 1724151481000,
+        "coords": {
+          "heading": -1,
+          "longitude": 7.626961511458975,
+          "altitude": 56.07129058986902,
+          "altitudeAccuracy": 1.4100299625409725,
+          "speed": 0.1314009790060803,
+          "latitude": 51.96510046403549,
+          "accuracy": 6.158809529264641
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602310709072356,
+            "lat": 51.94690041224672
+          },
+          "_ne": {
+            "lng": 7.610026476096323,
+            "lat": 51.95617796720941
+          }
+        },
+        "center": {
+          "lng": 7.606168592583799,
+          "lat": 51.9515394296599
+        },
+        "zoom": 15.251294785291549,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 338.80596923828125,
+      "interaction": {
+        "panCount": 5,
+        "zoomCount": 5,
+        "rotation": 668.0621032714844
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:03.039Z",
+      "position": {
+        "timestamp": 1724151482000,
+        "coords": {
+          "altitudeAccuracy": 1.4972767518993368,
+          "speed": 0.11843751344572355,
+          "heading": -1,
+          "latitude": 51.965100708801316,
+          "altitude": 56.07490096054971,
+          "longitude": 7.626953457100721,
+          "accuracy": 5.989100375724653
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.604123727592139,
+            "lat": 51.94883569296306
+          },
+          "_ne": {
+            "lng": 7.607156018969732,
+            "lat": 51.95248183757653
+          }
+        },
+        "center": {
+          "lng": 7.605639873279188,
+          "lat": 51.95065880232684
+        },
+        "zoom": 16.598695976200933,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 343.4114074707031,
+      "interaction": {
+        "panCount": 6,
+        "zoomCount": 6,
+        "rotation": 668.0621032714844
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:04.036Z",
+      "position": {
+        "timestamp": 1724151483000,
+        "coords": {
+          "altitudeAccuracy": 1.4141590378951536,
+          "speed": 0.06343964654542097,
+          "heading": -1,
+          "latitude": 51.96510477112141,
+          "altitude": 56.07442910037935,
+          "longitude": 7.626947980888472,
+          "accuracy": 6.651686901717783
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602527946682898,
+            "lat": 51.947057469762
+          },
+          "_ne": {
+            "lng": 7.607284545808483,
+            "lat": 51.952777083369824
+          }
+        },
+        "center": {
+          "lng": 7.6049062462465145,
+          "lat": 51.94991736775256
+        },
+        "zoom": 15.949173923791523,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 342.80670166015625,
+      "interaction": {
+        "panCount": 9,
+        "zoomCount": 6,
+        "rotation": 668.0621032714844
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:05.026Z",
+      "position": {
+        "timestamp": 1724151484000,
+        "coords": {
+          "altitudeAccuracy": 1.393060251540754,
+          "speed": 0.3994186862383573,
+          "heading": -1,
+          "latitude": 51.96511216261639,
+          "altitude": 56.06161250453442,
+          "longitude": 7.626945538832726,
+          "accuracy": 7.015896031735146
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.603389741374855,
+            "lat": 51.94797529411392
+          },
+          "_ne": {
+            "lng": 7.60660723957065,
+            "lat": 51.951844203199585
+          }
+        },
+        "center": {
+          "lng": 7.604998490472326,
+          "lat": 51.949909790379536
+        },
+        "zoom": 16.5131650277295,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 282.6202392578125,
+      "interaction": {
+        "panCount": 10,
+        "zoomCount": 7,
+        "rotation": 716.3748779296875
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:06.028Z",
+      "position": {
+        "timestamp": 1724151485000,
+        "coords": {
+          "heading": -1,
+          "longitude": 7.626944039123456,
+          "altitude": 56.07262110989541,
+          "altitudeAccuracy": 1.418297706102322,
+          "speed": 0.16583972688616885,
+          "latitude": 51.96511120872024,
+          "accuracy": 7.620576373329229
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.603389741374855,
+            "lat": 51.94797529411392
+          },
+          "_ne": {
+            "lng": 7.60660723957065,
+            "lat": 51.951844203199585
+          }
+        },
+        "center": {
+          "lng": 7.604998490472326,
+          "lat": 51.949909790379536
+        },
+        "zoom": 16.5131650277295,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 214.85348510742188,
+      "interaction": {
+        "panCount": 10,
+        "zoomCount": 7,
+        "rotation": 777.6811370849609
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:07.026Z",
+      "position": {
+        "timestamp": 1724151486000,
+        "coords": {
+          "altitudeAccuracy": 1.3950879263667135,
+          "speed": 0.5444020981525131,
+          "heading": -1,
+          "latitude": 51.965095012931094,
+          "altitude": 56.07263388391584,
+          "longitude": 7.6269251930056585,
+          "accuracy": 7.527018346552036
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.603389741374855,
+            "lat": 51.94797529411392
+          },
+          "_ne": {
+            "lng": 7.60660723957065,
+            "lat": 51.951844203199585
+          }
+        },
+        "center": {
+          "lng": 7.604998490472326,
+          "lat": 51.949909790379536
+        },
+        "zoom": 16.5131650277295,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 210.7305450439453,
+      "interaction": {
+        "panCount": 10,
+        "zoomCount": 7,
+        "rotation": 777.6811370849609
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:08.028Z",
+      "position": {
+        "timestamp": 1724151487000,
+        "coords": {
+          "altitudeAccuracy": 1.3739158438923145,
+          "speed": 0.3111311720241443,
+          "heading": -1,
+          "latitude": 51.965086201008106,
+          "altitude": 56.112904850393534,
+          "longitude": 7.626929356790483,
+          "accuracy": 7.968836980750902
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.603389741374855,
+            "lat": 51.94797529411392
+          },
+          "_ne": {
+            "lng": 7.60660723957065,
+            "lat": 51.951844203199585
+          }
+        },
+        "center": {
+          "lng": 7.604998490472326,
+          "lat": 51.949909790379536
+        },
+        "zoom": 16.5131650277295,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 247.16261291503906,
+      "interaction": {
+        "panCount": 10,
+        "zoomCount": 7,
+        "rotation": 794.050537109375
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:09.030Z",
+      "position": {
+        "timestamp": 1724151488000,
+        "coords": {
+          "heading": -1,
+          "longitude": 7.626897940110764,
+          "altitude": 56.1149408807978,
+          "altitudeAccuracy": 1.402166720705294,
+          "speed": 0.5408718418936056,
+          "latitude": 51.96508004528763,
+          "accuracy": 8.563224307638194
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.602541955385249,
+            "lat": 51.94723400068571
+          },
+          "_ne": {
+            "lng": 7.607067355302576,
+            "lat": 51.95267560226077
+          }
+        },
+        "center": {
+          "lng": 7.604804655343969,
+          "lat": 51.94995488401122
+        },
+        "zoom": 16.021059076189378,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 260.47796630859375,
+      "interaction": {
+        "panCount": 10,
+        "zoomCount": 7,
+        "rotation": 809.6596984863281
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:10.029Z",
+      "position": {
+        "timestamp": 1724151489000,
+        "coords": {
+          "altitudeAccuracy": 1.405076198583542,
+          "speed": 0.5299683601152055,
+          "heading": -1,
+          "latitude": 51.96508858657154,
+          "altitude": 56.11035187263042,
+          "longitude": 7.6268976222897695,
+          "accuracy": 8.80534017886713
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.593538457430867,
+            "lat": 51.931164100147186
+          },
+          "_ne": {
+            "lng": 7.6197604844993805,
+            "lat": 51.96269710083001
+          }
+        },
+        "center": {
+          "lng": 7.606649470965976,
+          "lat": 51.946933371760935
+        },
+        "zoom": 13.486397056482634,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 254.98919677734375,
+      "interaction": {
+        "panCount": 11,
+        "zoomCount": 8,
+        "rotation": 809.6596984863281
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:11.031Z",
+      "position": {
+        "timestamp": 1724151490000,
+        "coords": {
+          "heading": -1,
+          "longitude": 7.626916550182321,
+          "altitude": 56.04340793285519,
+          "altitudeAccuracy": 1.3797419704879659,
+          "speed": 0.23671596342503184,
+          "latitude": 51.96506601390984,
+          "accuracy": 8.292480725205191
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.593538457430867,
+            "lat": 51.931164100147186
+          },
+          "_ne": {
+            "lng": 7.6197604844993805,
+            "lat": 51.96269710083001
+          }
+        },
+        "center": {
+          "lng": 7.606649470965976,
+          "lat": 51.946933371760935
+        },
+        "zoom": 13.486397056482634,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 257.4872741699219,
+      "interaction": {
+        "panCount": 11,
+        "zoomCount": 8,
+        "rotation": 809.6596984863281
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:12.032Z",
+      "position": {
+        "timestamp": 1724151491000,
+        "coords": {
+          "heading": -1,
+          "longitude": 7.626918269581814,
+          "altitude": 56.07540429383516,
+          "altitudeAccuracy": 1.3802336268240898,
+          "speed": 0.039638348634487834,
+          "latitude": 51.96507073601219,
+          "accuracy": 7.797311845082228
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.593538457430867,
+            "lat": 51.931164100147186
+          },
+          "_ne": {
+            "lng": 7.6197604844993805,
+            "lat": 51.96269710083001
+          }
+        },
+        "center": {
+          "lng": 7.606649470965976,
+          "lat": 51.946933371760935
+        },
+        "zoom": 13.486397056482634,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 249.615478515625,
+      "interaction": {
+        "panCount": 11,
+        "zoomCount": 8,
+        "rotation": 809.6596984863281
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:13.030Z",
+      "position": {
+        "timestamp": 1724151492000,
+        "coords": {
+          "altitudeAccuracy": 1.4068573078510918,
+          "speed": 0.1578064683890463,
+          "heading": -1,
+          "latitude": 51.96506517241729,
+          "altitude": 56.07167150918394,
+          "longitude": 7.626923456052988,
+          "accuracy": 8.203678340454735
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.593538457430867,
+            "lat": 51.931164100147186
+          },
+          "_ne": {
+            "lng": 7.6197604844993805,
+            "lat": 51.96269710083001
+          }
+        },
+        "center": {
+          "lng": 7.606649470965976,
+          "lat": 51.946933371760935
+        },
+        "zoom": 13.486397056482634,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 244.355224609375,
+      "interaction": {
+        "panCount": 11,
+        "zoomCount": 8,
+        "rotation": 809.6596984863281
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:14.024Z",
+      "position": {
+        "timestamp": 1724151493000,
+        "coords": {
+          "altitudeAccuracy": 1.4352304829987637,
+          "speed": 0.08056815222534101,
+          "heading": -1,
+          "latitude": 51.96506681425259,
+          "altitude": 56.076590752229095,
+          "longitude": 7.626928291911529,
+          "accuracy": 9.179485687392935
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.593538457430867,
+            "lat": 51.931164100147186
+          },
+          "_ne": {
+            "lng": 7.6197604844993805,
+            "lat": 51.96269710083001
+          }
+        },
+        "center": {
+          "lng": 7.606649470965976,
+          "lat": 51.946933371760935
+        },
+        "zoom": 13.486397056482634,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 245.99859619140625,
+      "interaction": {
+        "panCount": 11,
+        "zoomCount": 8,
+        "rotation": 809.6596984863281
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:15.024Z",
+      "position": {
+        "timestamp": 1724151494000,
+        "coords": {
+          "altitudeAccuracy": 1.410817561398172,
+          "speed": 0.17527163278357255,
+          "heading": -1,
+          "latitude": 51.96506536785556,
+          "altitude": 56.08519028034061,
+          "longitude": 7.626925965464563,
+          "accuracy": 10.125376765395536
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.593538457430867,
+            "lat": 51.931164100147186
+          },
+          "_ne": {
+            "lng": 7.6197604844993805,
+            "lat": 51.96269710083001
+          }
+        },
+        "center": {
+          "lng": 7.606649470965976,
+          "lat": 51.946933371760935
+        },
+        "zoom": 13.486397056482634,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 252.20187377929688,
+      "interaction": {
+        "panCount": 11,
+        "zoomCount": 8,
+        "rotation": 809.6596984863281
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:16.024Z",
+      "position": {
+        "timestamp": 1724151495000,
+        "coords": {
+          "heading": -1,
+          "longitude": 7.626926562589854,
+          "altitude": 56.09139670059085,
+          "altitudeAccuracy": 1.4117486658403051,
+          "speed": 0.16441949221783222,
+          "latitude": 51.96506309869147,
+          "accuracy": 10.977694147106043
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.593538457430867,
+            "lat": 51.931164100147186
+          },
+          "_ne": {
+            "lng": 7.6197604844993805,
+            "lat": 51.96269710083001
+          }
+        },
+        "center": {
+          "lng": 7.606649470965976,
+          "lat": 51.946933371760935
+        },
+        "zoom": 13.486397056482634,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 258.42913818359375,
+      "interaction": {
+        "panCount": 11,
+        "zoomCount": 8,
+        "rotation": 809.6596984863281
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:17.029Z",
+      "position": {
+        "timestamp": 1724151496000,
+        "coords": {
+          "heading": -1,
+          "longitude": 7.626925309967062,
+          "altitude": 56.11209421604872,
+          "altitudeAccuracy": 1.4383799164433502,
+          "speed": 0.3175875132550826,
+          "latitude": 51.96505153725048,
+          "accuracy": 11.555195224268065
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.593538457430867,
+            "lat": 51.931164100147186
+          },
+          "_ne": {
+            "lng": 7.6197604844993805,
+            "lat": 51.96269710083001
+          }
+        },
+        "center": {
+          "lng": 7.606649470965976,
+          "lat": 51.946933371760935
+        },
+        "zoom": 13.486397056482634,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 253.21304321289062,
+      "interaction": {
+        "panCount": 11,
+        "zoomCount": 8,
+        "rotation": 809.6596984863281
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:18.026Z",
+      "position": {
+        "coords": {
+          "longitude": 7.626921722752112,
+          "latitude": 51.965049854605695,
+          "speed": 0.2523280951050082,
+          "heading": -1,
+          "altitudeAccuracy": 1.437929163864819,
+          "accuracy": 12.136154030323015,
+          "altitude": 56.10955528635532
+        },
+        "timestamp": 1724151497000
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.593538457430867,
+            "lat": 51.931164100147186
+          },
+          "_ne": {
+            "lng": 7.6197604844993805,
+            "lat": 51.96269710083001
+          }
+        },
+        "center": {
+          "lng": 7.606649470965976,
+          "lat": 51.946933371760935
+        },
+        "zoom": 13.486397056482634,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 256.0534973144531,
+      "interaction": {
+        "panCount": 11,
+        "zoomCount": 8,
+        "rotation": 809.6596984863281
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:19.028Z",
+      "position": {
+        "timestamp": 1724151498000,
+        "coords": {
+          "altitudeAccuracy": 1.4118498489466047,
+          "speed": 0.2878970942024082,
+          "heading": -1,
+          "latitude": 51.9650423234137,
+          "altitude": 56.077216557227075,
+          "longitude": 7.626934478826505,
+          "accuracy": 11.361847185591953
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.593538457430867,
+            "lat": 51.931164100147186
+          },
+          "_ne": {
+            "lng": 7.6197604844993805,
+            "lat": 51.96269710083001
+          }
+        },
+        "center": {
+          "lng": 7.606649470965976,
+          "lat": 51.946933371760935
+        },
+        "zoom": 13.486397056482634,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 255.84799194335938,
+      "interaction": {
+        "panCount": 11,
+        "zoomCount": 8,
+        "rotation": 809.6596984863281
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:20.028Z",
+      "position": {
+        "timestamp": 1724151499000,
+        "coords": {
+          "altitudeAccuracy": 1.4107768301800625,
+          "speed": 0.21356492712029043,
+          "heading": -1,
+          "latitude": 51.9650292091159,
+          "altitude": 56.10122510232031,
+          "longitude": 7.626902820067023,
+          "accuracy": 10.830450074463155
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.593538457430867,
+            "lat": 51.931164100147186
+          },
+          "_ne": {
+            "lng": 7.6197604844993805,
+            "lat": 51.96269710083001
+          }
+        },
+        "center": {
+          "lng": 7.606649470965976,
+          "lat": 51.946933371760935
+        },
+        "zoom": 13.486397056482634,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 253.94253540039062,
+      "interaction": {
+        "panCount": 11,
+        "zoomCount": 8,
+        "rotation": 809.6596984863281
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:21.029Z",
+      "position": {
+        "timestamp": 1724151500000,
+        "coords": {
+          "altitudeAccuracy": 1.3835844457582709,
+          "speed": 0.24234977730942772,
+          "heading": -1,
+          "latitude": 51.96502573039495,
+          "altitude": 56.114921246655285,
+          "longitude": 7.6269390139200235,
+          "accuracy": 9.510904098598024
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.593538457430867,
+            "lat": 51.931164100147186
+          },
+          "_ne": {
+            "lng": 7.6197604844993805,
+            "lat": 51.96269710083001
+          }
+        },
+        "center": {
+          "lng": 7.606649470965976,
+          "lat": 51.946933371760935
+        },
+        "zoom": 13.486397056482634,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 256.65997314453125,
+      "interaction": {
+        "panCount": 11,
+        "zoomCount": 8,
+        "rotation": 809.6596984863281
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:22.026Z",
+      "position": {
+        "timestamp": 1724151501000,
+        "coords": {
+          "altitudeAccuracy": 1.4314612676807255,
+          "speed": 0.08373830416507035,
+          "heading": -1,
+          "latitude": 51.965055310428845,
+          "altitude": 56.18238850031048,
+          "longitude": 7.6269088536134655,
+          "accuracy": 8.766866277402464
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.593538457430867,
+            "lat": 51.931164100147186
+          },
+          "_ne": {
+            "lng": 7.6197604844993805,
+            "lat": 51.96269710083001
+          }
+        },
+        "center": {
+          "lng": 7.606649470965976,
+          "lat": 51.946933371760935
+        },
+        "zoom": 13.486397056482634,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 300.7393493652344,
+      "interaction": {
+        "panCount": 11,
+        "zoomCount": 8,
+        "rotation": 856.2936706542969
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:23.032Z",
+      "position": {
+        "timestamp": 1724151502000,
+        "coords": {
+          "altitudeAccuracy": 1.4311319664147268,
+          "longitude": 7.626912962768275,
+          "speed": 0.23574328361622568,
+          "altitude": 56.145322057418525,
+          "heading": -1,
+          "latitude": 51.965060301760225,
+          "accuracy": 8.966120429915724
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.593538457430867,
+            "lat": 51.931164100147186
+          },
+          "_ne": {
+            "lng": 7.6197604844993805,
+            "lat": 51.96269710083001
+          }
+        },
+        "center": {
+          "lng": 7.606649470965976,
+          "lat": 51.946933371760935
+        },
+        "zoom": 13.486397056482634,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 331.850341796875,
+      "interaction": {
+        "panCount": 11,
+        "zoomCount": 8,
+        "rotation": 887.9845581054688
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:24.028Z",
+      "position": {
+        "timestamp": 1724151503000,
+        "coords": {
+          "altitudeAccuracy": 1.4315052309630827,
+          "speed": 0.05999244942015737,
+          "heading": -1,
+          "latitude": 51.965064987501066,
+          "altitude": 56.110601919703186,
+          "longitude": 7.626902329511656,
+          "accuracy": 8.884864630264845
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.593538457430867,
+            "lat": 51.931164100147186
+          },
+          "_ne": {
+            "lng": 7.6197604844993805,
+            "lat": 51.96269710083001
+          }
+        },
+        "center": {
+          "lng": 7.606649470965976,
+          "lat": 51.946933371760935
+        },
+        "zoom": 13.486397056482634,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 331.7597961425781,
+      "interaction": {
+        "panCount": 11,
+        "zoomCount": 8,
+        "rotation": 887.9845581054688
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:25.029Z",
+      "position": {
+        "timestamp": 1724151504000,
+        "coords": {
+          "altitudeAccuracy": 1.429893936443037,
+          "speed": 0.09885612200652887,
+          "heading": -1,
+          "latitude": 51.96506318409547,
+          "altitude": 56.10020070336759,
+          "longitude": 7.626906779545153,
+          "accuracy": 8.390122367063494
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.593538457430867,
+            "lat": 51.931164100147186
+          },
+          "_ne": {
+            "lng": 7.6197604844993805,
+            "lat": 51.96269710083001
+          }
+        },
+        "center": {
+          "lng": 7.606649470965976,
+          "lat": 51.946933371760935
+        },
+        "zoom": 13.486397056482634,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 309.1942138671875,
+      "interaction": {
+        "panCount": 11,
+        "zoomCount": 8,
+        "rotation": 903.3553161621094
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:26.031Z",
+      "position": {
+        "timestamp": 1724151505000,
+        "coords": {
+          "latitude": 51.96506056716639,
+          "altitude": 56.074011956341565,
+          "accuracy": 6.849941350841894,
+          "altitudeAccuracy": 1.4212922253076095,
+          "speed": 0.12368026685029802,
+          "longitude": 7.626928855912454,
+          "heading": -1
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.593538457430867,
+            "lat": 51.931164100147186
+          },
+          "_ne": {
+            "lng": 7.6197604844993805,
+            "lat": 51.96269710083001
+          }
+        },
+        "center": {
+          "lng": 7.606649470965976,
+          "lat": 51.946933371760935
+        },
+        "zoom": 13.486397056482634,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 317.4241638183594,
+      "interaction": {
+        "panCount": 11,
+        "zoomCount": 8,
+        "rotation": 935.11083984375
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:27.033Z",
+      "position": {
+        "timestamp": 1724151506000,
+        "coords": {
+          "longitude": 7.626925929775771,
+          "altitudeAccuracy": 1.3910240303560806,
+          "heading": -1,
+          "latitude": 51.96506494391352,
+          "speed": 0.11221208347591238,
+          "altitude": 56.11753515060991,
+          "accuracy": 6.2055334176402255
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.593538457430867,
+            "lat": 51.931164100147186
+          },
+          "_ne": {
+            "lng": 7.6197604844993805,
+            "lat": 51.96269710083001
+          }
+        },
+        "center": {
+          "lng": 7.606649470965976,
+          "lat": 51.946933371760935
+        },
+        "zoom": 13.486397056482634,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 336.3232421875,
+      "interaction": {
+        "panCount": 11,
+        "zoomCount": 8,
+        "rotation": 982.5291442871094
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:28.025Z",
+      "position": {
+        "timestamp": 1724151507000,
+        "coords": {
+          "heading": -1,
+          "altitude": 56.1216256339103,
+          "accuracy": 5.95862374713203,
+          "longitude": 7.626926885483236,
+          "altitudeAccuracy": 1.368026284180351,
+          "speed": 0.1742319805059493,
+          "latitude": 51.96506797325764
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.593538457430867,
+            "lat": 51.931164100147186
+          },
+          "_ne": {
+            "lng": 7.6197604844993805,
+            "lat": 51.96269710083001
+          }
+        },
+        "center": {
+          "lng": 7.606649470965976,
+          "lat": 51.946933371760935
+        },
+        "zoom": 13.486397056482634,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 88.5990982055664,
+      "interaction": {
+        "panCount": 11,
+        "zoomCount": 8,
+        "rotation": 1092.4019165039062
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:29.027Z",
+      "position": {
+        "timestamp": 1724151508000,
+        "coords": {
+          "altitudeAccuracy": 1.4197385042303936,
+          "speed": 0.6537865512047653,
+          "heading": -1,
+          "latitude": 51.96508651652893,
+          "altitude": 56.02888567466289,
+          "longitude": 7.626933853005944,
+          "accuracy": 6.091571657852164
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.593538457430867,
+            "lat": 51.931164100147186
+          },
+          "_ne": {
+            "lng": 7.6197604844993805,
+            "lat": 51.96269710083001
+          }
+        },
+        "center": {
+          "lng": 7.606649470965976,
+          "lat": 51.946933371760935
+        },
+        "zoom": 13.486397056482634,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 84.19096374511719,
+      "interaction": {
+        "panCount": 11,
+        "zoomCount": 8,
+        "rotation": 1092.4019165039062
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:30.027Z",
+      "position": {
+        "timestamp": 1724151509000,
+        "coords": {
+          "heading": -1,
+          "longitude": 7.626952458053007,
+          "altitude": 56.02674516104162,
+          "altitudeAccuracy": 1.3931650656694314,
+          "speed": 0.34042295950046697,
+          "latitude": 51.96508624125347,
+          "accuracy": 6.022656883207956
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.593538457430867,
+            "lat": 51.931164100147186
+          },
+          "_ne": {
+            "lng": 7.6197604844993805,
+            "lat": 51.96269710083001
+          }
+        },
+        "center": {
+          "lng": 7.606649470965976,
+          "lat": 51.946933371760935
+        },
+        "zoom": 13.486397056482634,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 80.65467071533203,
+      "interaction": {
+        "panCount": 11,
+        "zoomCount": 8,
+        "rotation": 1092.4019165039062
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:31.028Z",
+      "position": {
+        "timestamp": 1724151510000,
+        "coords": {
+          "longitude": 7.626963269552613,
+          "speed": 0.17342946408798532,
+          "accuracy": 5.738964990695194,
+          "altitudeAccuracy": 1.5108248568603098,
+          "altitude": 56.0818553250283,
+          "heading": -1,
+          "latitude": 51.965086066532514
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.593538457430867,
+            "lat": 51.931164100147186
+          },
+          "_ne": {
+            "lng": 7.6197604844993805,
+            "lat": 51.96269710083001
+          }
+        },
+        "center": {
+          "lng": 7.606649470965976,
+          "lat": 51.946933371760935
+        },
+        "zoom": 13.486397056482634,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 85.48949432373047,
+      "interaction": {
+        "panCount": 11,
+        "zoomCount": 8,
+        "rotation": 1092.4019165039062
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:32.029Z",
+      "position": {
+        "timestamp": 1724151511000,
+        "coords": {
+          "altitudeAccuracy": 1.5030750707922804,
+          "speed": 0.19158195364950759,
+          "heading": -1,
+          "latitude": 51.96508282125638,
+          "altitude": 56.08300799597055,
+          "longitude": 7.62697345581158,
+          "accuracy": 5.780382015213269
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.593538457430867,
+            "lat": 51.931164100147186
+          },
+          "_ne": {
+            "lng": 7.6197604844993805,
+            "lat": 51.96269710083001
+          }
+        },
+        "center": {
+          "lng": 7.606649470965976,
+          "lat": 51.946933371760935
+        },
+        "zoom": 13.486397056482634,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 85.11124420166016,
+      "interaction": {
+        "panCount": 11,
+        "zoomCount": 8,
+        "rotation": 1092.4019165039062
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:33.029Z",
+      "position": {
+        "timestamp": 1724151512000,
+        "coords": {
+          "altitudeAccuracy": 1.5301031863661652,
+          "speed": 0.06927233137314082,
+          "heading": -1,
+          "latitude": 51.96508757479016,
+          "altitude": 56.09729813504964,
+          "longitude": 7.626971235310699,
+          "accuracy": 5.822185590753106
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.593538457430867,
+            "lat": 51.931164100147186
+          },
+          "_ne": {
+            "lng": 7.6197604844993805,
+            "lat": 51.96269710083001
+          }
+        },
+        "center": {
+          "lng": 7.606649470965976,
+          "lat": 51.946933371760935
+        },
+        "zoom": 13.486397056482634,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 101.31321716308594,
+      "interaction": {
+        "panCount": 11,
+        "zoomCount": 8,
+        "rotation": 1107.764030456543
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:34.028Z",
+      "position": {
+        "timestamp": 1724151513000,
+        "coords": {
+          "altitudeAccuracy": 1.5304786938980195,
+          "speed": 0.12492550486043368,
+          "heading": -1,
+          "latitude": 51.96510003485036,
+          "altitude": 56.16701388172805,
+          "longitude": 7.6269741508262605,
+          "accuracy": 5.8805689776342875
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.581945655641704,
+            "lat": 51.918538651003445
+          },
+          "_ne": {
+            "lng": 7.629135965595111,
+            "lat": 51.97528683775775
+          }
+        },
+        "center": {
+          "lng": 7.605540810619459,
+          "lat": 51.94692171975058
+        },
+        "zoom": 12.638685625145914,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 111.68394470214844,
+      "interaction": {
+        "panCount": 11,
+        "zoomCount": 8,
+        "rotation": 1107.764030456543
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:35.027Z",
+      "position": {
+        "timestamp": 1724151514000,
+        "coords": {
+          "altitudeAccuracy": 1.6284962415512974,
+          "speed": 0.08314545650631786,
+          "heading": -1,
+          "latitude": 51.965106720897644,
+          "altitude": 56.16320389416069,
+          "longitude": 7.6269738894946215,
+          "accuracy": 5.81108769704056
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.594688977029023,
+            "lat": 51.929209722423224
+          },
+          "_ne": {
+            "lng": 7.620597280927825,
+            "lat": 51.96036694705248
+          }
+        },
+        "center": {
+          "lng": 7.607643128978907,
+          "lat": 51.94479104014545
+        },
+        "zoom": 13.503761700707493,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 113.08248138427734,
+      "interaction": {
+        "panCount": 12,
+        "zoomCount": 9.5,
+        "rotation": 1107.764030456543
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:36.031Z",
+      "position": {
+        "timestamp": 1724151515000,
+        "coords": {
+          "heading": -1,
+          "longitude": 7.626971172434668,
+          "altitude": 56.171556423418224,
+          "altitudeAccuracy": 1.4225579285927168,
+          "speed": 0.37434769029886844,
+          "latitude": 51.96511452039517,
+          "accuracy": 6.369552928068096
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.59471012871677,
+            "lat": 51.92923681410721
+          },
+          "_ne": {
+            "lng": 7.620570278771339,
+            "lat": 51.96033613040976
+          }
+        },
+        "center": {
+          "lng": 7.607640203745291,
+          "lat": 51.94478916761864
+        },
+        "zoom": 13.506445626030414,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 112.99684143066406,
+      "interaction": {
+        "panCount": 13,
+        "zoomCount": 10,
+        "rotation": 1107.764030456543
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:37.024Z",
+      "position": {
+        "timestamp": 1724151516000,
+        "coords": {
+          "heading": -1,
+          "longitude": 7.626958320380991,
+          "altitude": 56.227513623423874,
+          "altitudeAccuracy": 1.4238021580537188,
+          "speed": 0.2919359209543386,
+          "latitude": 51.96510389317843,
+          "accuracy": 6.681706054951993
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.59471012871677,
+            "lat": 51.92923681410721
+          },
+          "_ne": {
+            "lng": 7.620570278771339,
+            "lat": 51.96033613040976
+          }
+        },
+        "center": {
+          "lng": 7.607640203745291,
+          "lat": 51.94478916761864
+        },
+        "zoom": 13.506445626030414,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 114.01013946533203,
+      "interaction": {
+        "panCount": 13,
+        "zoomCount": 10,
+        "rotation": 1107.764030456543
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:38.025Z",
+      "position": {
+        "timestamp": 1724151517000,
+        "coords": {
+          "heading": -1,
+          "accuracy": 6.425582988380278,
+          "altitude": 56.22755466308445,
+          "latitude": 51.96509841204397,
+          "speed": 0.1591131087981875,
+          "longitude": 7.6269614340354295,
+          "altitudeAccuracy": 1.6706132036517818
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.59471012871677,
+            "lat": 51.92923681410721
+          },
+          "_ne": {
+            "lng": 7.620570278771339,
+            "lat": 51.96033613040976
+          }
+        },
+        "center": {
+          "lng": 7.607640203745291,
+          "lat": 51.94478916761864
+        },
+        "zoom": 13.506445626030414,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 107.67666625976562,
+      "interaction": {
+        "panCount": 13,
+        "zoomCount": 10,
+        "rotation": 1107.764030456543
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:39.030Z",
+      "position": {
+        "timestamp": 1724151518000,
+        "coords": {
+          "longitude": 7.626991424604249,
+          "speed": 0.17172481752656762,
+          "accuracy": 5.601985802668462,
+          "altitudeAccuracy": 1.9179752380236288,
+          "altitude": 56.27805673331022,
+          "heading": -1,
+          "latitude": 51.96510082218996
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.59471012871677,
+            "lat": 51.92923681410721
+          },
+          "_ne": {
+            "lng": 7.620570278771339,
+            "lat": 51.96033613040976
+          }
+        },
+        "center": {
+          "lng": 7.607640203745291,
+          "lat": 51.94478916761864
+        },
+        "zoom": 13.506445626030414,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 109.59555053710938,
+      "interaction": {
+        "panCount": 13,
+        "zoomCount": 10,
+        "rotation": 1107.764030456543
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:40.034Z",
+      "position": {
+        "timestamp": 1724151519000,
+        "coords": {
+          "altitudeAccuracy": 2.1586527104463964,
+          "speed": 0.09806155801631815,
+          "heading": -1,
+          "latitude": 51.965088912781304,
+          "altitude": 56.23102718964219,
+          "longitude": 7.626984288777144,
+          "accuracy": 5.400440306907508
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.594438234617428,
+            "lat": 51.929367215526696
+          },
+          "_ne": {
+            "lng": 7.620298384671997,
+            "lat": 51.96046644144596
+          }
+        },
+        "center": {
+          "lng": 7.607368309644244,
+          "lat": 51.944919523843794
+        },
+        "zoom": 13.506445626030414,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 108.0888900756836,
+      "interaction": {
+        "panCount": 13,
+        "zoomCount": 10,
+        "rotation": 1107.764030456543
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:41.033Z",
+      "position": {
+        "timestamp": 1724151520000,
+        "coords": {
+          "heading": -1,
+          "longitude": 7.626977526507903,
+          "altitude": 56.17652391921729,
+          "altitudeAccuracy": 2.2683406564286273,
+          "speed": 0.19053365118924107,
+          "latitude": 51.96507173200572,
+          "accuracy": 5.355293427925475
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.577047461092889,
+            "lat": 51.90640015631175
+          },
+          "_ne": {
+            "lng": 7.636594066774705,
+            "lat": 51.978014774998684
+          }
+        },
+        "center": {
+          "lng": 7.6068207639347065,
+          "lat": 51.94222175717252
+        },
+        "zoom": 12.303156999601711,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 106.92605590820312,
+      "interaction": {
+        "panCount": 14,
+        "zoomCount": 11.5,
+        "rotation": 1107.764030456543
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:42.026Z",
+      "position": {
+        "timestamp": 1724151521000,
+        "coords": {
+          "altitudeAccuracy": 2.317923690795245,
+          "speed": 0.4557657869117961,
+          "heading": -1,
+          "latitude": 51.96505604509611,
+          "altitude": 56.15114942844957,
+          "longitude": 7.626978948824217,
+          "accuracy": 5.351981209447646
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 115.379638671875,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1122.9385833740234
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:43.027Z",
+      "position": {
+        "timestamp": 1724151522000,
+        "coords": {
+          "altitudeAccuracy": 2.2772692881868575,
+          "speed": 0.38300344812739945,
+          "heading": -1,
+          "latitude": 51.96503828914925,
+          "altitude": 56.06566541176289,
+          "longitude": 7.626977788053278,
+          "accuracy": 5.413460353256098
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 172.4642791748047,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1170.2198638916016
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:44.026Z",
+      "position": {
+        "timestamp": 1724151523000,
+        "coords": {
+          "altitudeAccuracy": 2.3307624393710067,
+          "speed": 0.23192971050582187,
+          "heading": -1,
+          "latitude": 51.96503477349825,
+          "altitude": 56.08204183354974,
+          "longitude": 7.6269928387157755,
+          "accuracy": 5.368335306469205
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 177.3055877685547,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1185.3000183105469
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:45.027Z",
+      "position": {
+        "timestamp": 1724151524000,
+        "coords": {
+          "heading": -1,
+          "longitude": 7.6269965204116135,
+          "altitude": 56.03302633296698,
+          "altitudeAccuracy": 2.0651409485865297,
+          "speed": 0.2130572765953352,
+          "latitude": 51.96503868129832,
+          "accuracy": 5.436886047661838
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 171.03321838378906,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1185.3000183105469
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:46.028Z",
+      "position": {
+        "timestamp": 1724151525000,
+        "coords": {
+          "altitudeAccuracy": 1.8112499563651863,
+          "speed": 0.34377852393906977,
+          "heading": -1,
+          "latitude": 51.96504623825696,
+          "altitude": 56.044512886554,
+          "longitude": 7.626979892234704,
+          "accuracy": 5.5266545602521555
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 171.45399475097656,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1200.581558227539
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:47.028Z",
+      "position": {
+        "timestamp": 1724151526000,
+        "coords": {
+          "altitudeAccuracy": 1.8076150881390403,
+          "speed": 0.04126620245703135,
+          "heading": -1,
+          "latitude": 51.96503646925789,
+          "altitude": 56.07961192447692,
+          "longitude": 7.626984400648777,
+          "accuracy": 5.527844491835938
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 187.96987915039062,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1216.3381042480469
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:48.028Z",
+      "position": {
+        "timestamp": 1724151527000,
+        "coords": {
+          "altitudeAccuracy": 1.6733417962535058,
+          "speed": 0.32472859064338905,
+          "heading": -1,
+          "latitude": 51.9650408097048,
+          "altitude": 56.14521512482315,
+          "longitude": 7.6269591313210725,
+          "accuracy": 5.61693253762421
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 178.9580078125,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1216.3381042480469
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:49.029Z",
+      "position": {
+        "timestamp": 1724151528000,
+        "coords": {
+          "altitudeAccuracy": 1.5617069783628983,
+          "speed": 0.19185845901822007,
+          "heading": -1,
+          "latitude": 51.965039337797045,
+          "altitude": 56.103168208152056,
+          "longitude": 7.626964634066122,
+          "accuracy": 5.695332858604516
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 240.01153564453125,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1285.38134765625
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:50.030Z",
+      "position": {
+        "timestamp": 1724151529000,
+        "coords": {
+          "altitudeAccuracy": 1.417310595517531,
+          "longitude": 7.626963943349995,
+          "speed": 0.31609752617090114,
+          "altitude": 56.12610715162009,
+          "heading": -1,
+          "accuracy": 5.7984958650457665,
+          "latitude": 51.96503658669299
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 237.56114196777344,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1300.799072265625
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:51.025Z",
+      "position": {
+        "coords": {
+          "heading": -1,
+          "accuracy": 6.401138769350159,
+          "latitude": 51.965037987729076,
+          "longitude": 7.626970791250814,
+          "altitudeAccuracy": 1.4000503559943165,
+          "altitude": 56.14983679819852,
+          "speed": 0.24695172968702467
+        },
+        "timestamp": 1724151530000
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 204.06234741210938,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1316.148452758789
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:52.033Z",
+      "position": {
+        "timestamp": 1724151531000,
+        "coords": {
+          "heading": -1,
+          "accuracy": 7.091223786690306,
+          "altitude": 56.302693827077746,
+          "latitude": 51.96507118964789,
+          "speed": 0.5133256161242494,
+          "longitude": 7.626965906336559,
+          "altitudeAccuracy": 1.426153234408808
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 197.18124389648438,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1347.5098571777344
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:53.026Z",
+      "position": {
+        "timestamp": 1724151532000,
+        "coords": {
+          "heading": -1,
+          "altitude": 56.27129744552076,
+          "accuracy": 7.959454924417781,
+          "longitude": 7.626959276773258,
+          "altitudeAccuracy": 1.4039073156224795,
+          "speed": 0.5205458781715614,
+          "latitude": 51.9650776858909
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 171.98239135742188,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1347.5098571777344
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:54.025Z",
+      "position": {
+        "timestamp": 1724151533000,
+        "coords": {
+          "heading": -1,
+          "altitude": 56.159670763649046,
+          "accuracy": 8.494530142305385,
+          "longitude": 7.626972776626501,
+          "altitudeAccuracy": 1.3790307390340617,
+          "speed": 0.21079653637675722,
+          "latitude": 51.965071836277836
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 158.36758422851562,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1363.7680358886719
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:55.026Z",
+      "position": {
+        "timestamp": 1724151534000,
+        "coords": {
+          "heading": -1,
+          "longitude": 7.6269695942669555,
+          "altitude": 56.12397491000593,
+          "altitudeAccuracy": 1.4068344712589635,
+          "speed": 0.1060695790124236,
+          "latitude": 51.96507059859099,
+          "accuracy": 9.558664201956637
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 33.644840240478516,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1496.3340034484863
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:56.028Z",
+      "position": {
+        "timestamp": 1724151535000,
+        "coords": {
+          "altitudeAccuracy": 1.4083359977382246,
+          "speed": 0.279878022065151,
+          "heading": -1,
+          "latitude": 51.96505926401307,
+          "altitude": 56.12696336209774,
+          "longitude": 7.626974588052018,
+          "accuracy": 10.318548515643574
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 11.803105354309082,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1513.3700428009033
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:57.029Z",
+      "position": {
+        "timestamp": 1724151536000,
+        "coords": {
+          "altitudeAccuracy": 1.3834327158153255,
+          "speed": 0.6699132814157772,
+          "heading": -1,
+          "latitude": 51.96503402702663,
+          "altitude": 56.15598406922072,
+          "longitude": 7.626992128457014,
+          "accuracy": 10.029848527064882
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 2.0936689376831055,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1544.7202758789062
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:58.028Z",
+      "position": {
+        "timestamp": 1724151537000,
+        "coords": {
+          "altitudeAccuracy": 1.4338120490820563,
+          "speed": 0.24412661377413442,
+          "heading": -1,
+          "latitude": 51.96503905285029,
+          "altitude": 56.138081449083984,
+          "longitude": 7.627003908549453,
+          "accuracy": 9.361983396019522
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 18.245914459228516,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1578.0589809417725
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:58:59.031Z",
+      "position": {
+        "timestamp": 1724151538000,
+        "coords": {
+          "heading": -1,
+          "longitude": 7.626998355808682,
+          "altitude": 56.127889048308134,
+          "altitudeAccuracy": 1.4339468479734474,
+          "speed": 0.2404159346095647,
+          "latitude": 51.96504089797854,
+          "accuracy": 8.823514057266246
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 24.596385955810547,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1578.0589809417725
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:59:00.030Z",
+      "position": {
+        "timestamp": 1724151539000,
+        "coords": {
+          "altitudeAccuracy": 1.4065082900023034,
+          "longitude": 7.626999157643099,
+          "speed": 0.09517665477422502,
+          "altitude": 56.126790795475245,
+          "heading": -1,
+          "latitude": 51.96503845970624,
+          "accuracy": 8.455995615403785
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 22.71863555908203,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1578.0589809417725
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:59:01.032Z",
+      "position": {
+        "timestamp": 1724151540000,
+        "coords": {
+          "altitudeAccuracy": 1.4066451766491352,
+          "longitude": 7.627000338383946,
+          "speed": 0.8868035908083776,
+          "altitude": 56.149728044867516,
+          "heading": 358.48382920298695,
+          "latitude": 51.965071462726264,
+          "accuracy": 8.333362247793248
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 17.61441421508789,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1578.0589809417725
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:59:02.028Z",
+      "position": {
+        "timestamp": 1724151541000,
+        "coords": {
+          "heading": -1,
+          "longitude": 7.6269981018573665,
+          "altitude": 56.15665527805686,
+          "altitudeAccuracy": 1.40717910965653,
+          "speed": 0.04975998184725191,
+          "latitude": 51.965058101133735,
+          "accuracy": 8.4897603292853
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 16.968149185180664,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1578.0589809417725
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:59:03.029Z",
+      "position": {
+        "coords": {
+          "speed": 0.1271491294280083,
+          "altitudeAccuracy": 1.4073721941483197,
+          "accuracy": 8.056751411760468,
+          "heading": -1,
+          "latitude": 51.96504614733149,
+          "longitude": 7.627015485636799,
+          "altitude": 56.1308332355693
+        },
+        "timestamp": 1724151542000
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 11.860285758972168,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1578.0589809417725
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:59:04.032Z",
+      "position": {
+        "timestamp": 1724151543000,
+        "coords": {
+          "latitude": 51.96504215162891,
+          "altitude": 56.14405298046768,
+          "accuracy": 7.789973064649944,
+          "altitudeAccuracy": 1.4075508033760527,
+          "speed": 0.10366832028040604,
+          "longitude": 7.627002859367999,
+          "heading": -1
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 10.812302589416504,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1578.0589809417725
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:59:05.025Z",
+      "position": {
+        "timestamp": 1724151544000,
+        "coords": {
+          "heading": -1,
+          "longitude": 7.627013979326737,
+          "altitude": 56.12614763062447,
+          "altitudeAccuracy": 1.38214604374546,
+          "speed": 0.2096256968623426,
+          "latitude": 51.96503121210339,
+          "accuracy": 7.783151123808961
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 11.290690422058105,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1578.0589809417725
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:59:06.025Z",
+      "position": {
+        "timestamp": 1724151545000,
+        "coords": {
+          "altitudeAccuracy": 1.4329941237265507,
+          "speed": 0.18149414043673404,
+          "heading": -1,
+          "latitude": 51.96503223935197,
+          "altitude": 56.10664466023445,
+          "longitude": 7.627021188706926,
+          "accuracy": 7.849781231492584
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 17.07830810546875,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1578.0589809417725
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:59:07.026Z",
+      "position": {
+        "timestamp": 1724151546000,
+        "coords": {
+          "heading": -1,
+          "longitude": 7.627017592565194,
+          "altitude": 56.10336813144386,
+          "altitudeAccuracy": 1.4072161525241849,
+          "speed": 0.26940820012342964,
+          "latitude": 51.96503073730373,
+          "accuracy": 7.654936536875821
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 353.9913635253906,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1593.1394815444946
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:59:08.025Z",
+      "position": {
+        "timestamp": 1724151547000,
+        "coords": {
+          "heading": -1,
+          "longitude": 7.627017603381648,
+          "altitude": 56.100132931023836,
+          "altitudeAccuracy": 1.4092962606701447,
+          "speed": 0.1902267676495532,
+          "latitude": 51.96502047209584,
+          "accuracy": 8.610374563149144
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 351.91839599609375,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1608.1395988464355
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:59:09.026Z",
+      "position": {
+        "timestamp": 1724151548000,
+        "coords": {
+          "altitudeAccuracy": 1.4104951392041303,
+          "speed": 0.312916969093269,
+          "heading": -1,
+          "latitude": 51.965015655345894,
+          "altitude": 56.10962437372655,
+          "longitude": 7.627018138345831,
+          "accuracy": 9.44244068800621
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 2.919159173965454,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1608.1395988464355
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:59:10.024Z",
+      "position": {
+        "timestamp": 1724151549000,
+        "coords": {
+          "altitudeAccuracy": 1.4113845895505563,
+          "speed": 0.2422773554021763,
+          "heading": -1,
+          "latitude": 51.9650065519236,
+          "altitude": 56.11301459558308,
+          "longitude": 7.627013760080766,
+          "accuracy": 10.067955693545715
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 34.258201599121094,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1638.389259338379
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:59:11.026Z",
+      "position": {
+        "timestamp": 1724151550000,
+        "coords": {
+          "altitudeAccuracy": 1.4098687381047246,
+          "speed": 0.12400307348504143,
+          "heading": -1,
+          "latitude": 51.9650157542011,
+          "altitude": 56.14930475316942,
+          "longitude": 7.627015195681883,
+          "accuracy": 10.451318044429131
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 359.90185546875,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1685.785323381424
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:59:12.026Z",
+      "position": {
+        "timestamp": 1724151551000,
+        "coords": {
+          "heading": -1,
+          "longitude": 7.627038640842305,
+          "altitude": 56.11644720379263,
+          "altitudeAccuracy": 1.4097849886727436,
+          "speed": 0.4152344395810459,
+          "latitude": 51.96501691258776,
+          "accuracy": 10.585914034727953
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 1.9788806438446045,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1685.785323381424
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:59:13.027Z",
+      "position": {
+        "timestamp": 1724151552000,
+        "coords": {
+          "altitudeAccuracy": 1.406404787340485,
+          "speed": 0.2759834147462309,
+          "heading": -1,
+          "latitude": 51.96501629589645,
+          "altitude": 56.07159434072673,
+          "longitude": 7.6270175271011995,
+          "accuracy": 9.280072080873367
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 2.3705670833587646,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1685.785323381424
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:59:14.029Z",
+      "position": {
+        "timestamp": 1724151553000,
+        "coords": {
+          "heading": -1,
+          "longitude": 7.6269963787316994,
+          "altitude": 56.07480924297124,
+          "altitudeAccuracy": 1.4057535839581494,
+          "speed": 0.22118237473157382,
+          "latitude": 51.96502006411209,
+          "accuracy": 8.241955969986675
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 19.861576080322266,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1700.9599976539612
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:59:15.029Z",
+      "position": {
+        "timestamp": 1724151554000,
+        "coords": {
+          "altitudeAccuracy": 1.4066847964322606,
+          "speed": 0.09018492955333189,
+          "heading": -1,
+          "latitude": 51.965010663133405,
+          "altitude": 56.068269751966,
+          "longitude": 7.626990709106297,
+          "accuracy": 8.626006769577197
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 72.38623046875,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1747.9728112220764
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:59:16.033Z",
+      "position": {
+        "timestamp": 1724151555000,
+        "coords": {
+          "longitude": 7.627000441319208,
+          "speed": 0.37117979328824585,
+          "accuracy": 8.700847450193542,
+          "altitudeAccuracy": 1.4061245336769115,
+          "altitude": 56.051347110420465,
+          "heading": -1,
+          "latitude": 51.96503777914542
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 66.95259857177734,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1747.9728112220764
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:59:17.033Z",
+      "position": {
+        "timestamp": 1724151556000,
+        "coords": {
+          "heading": -1,
+          "accuracy": 8.661465806966843,
+          "altitude": 56.05680945049971,
+          "latitude": 51.96505368465303,
+          "speed": 0.5118320359830401,
+          "longitude": 7.627004486647656,
+          "altitudeAccuracy": 1.4046788397208345
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 70.69213104248047,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1763.0484108924866
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:59:18.025Z",
+      "position": {
+        "timestamp": 1724151557000,
+        "coords": {
+          "heading": -1,
+          "longitude": 7.627042892215615,
+          "altitude": 56.07205251790583,
+          "altitudeAccuracy": 1.3777382428653315,
+          "speed": 0.4237246638421085,
+          "latitude": 51.96504736392196,
+          "accuracy": 7.984473038488812
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 87.51457214355469,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1763.0484108924866
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:59:19.025Z",
+      "position": {
+        "timestamp": 1724151558000,
+        "coords": {
+          "heading": -1,
+          "altitude": 56.09853381011635,
+          "accuracy": 7.934675338227978,
+          "longitude": 7.627064764781118,
+          "altitudeAccuracy": 1.4032434217820968,
+          "speed": 0.44417223572030584,
+          "latitude": 51.965041190628426
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 91.64389038085938,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1763.0484108924866
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:59:20.026Z",
+      "position": {
+        "timestamp": 1724151559000,
+        "coords": {
+          "heading": -1,
+          "longitude": 7.627083634365438,
+          "altitude": 56.111036194488406,
+          "altitudeAccuracy": 1.404254302056097,
+          "speed": 0.34828211535505105,
+          "latitude": 51.96504006281847,
+          "accuracy": 7.834619158712245
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.575128396510252,
+            "lat": 51.89749768497842
+          },
+          "_ne": {
+            "lng": 7.646056581368811,
+            "lat": 51.98280443119634
+          }
+        },
+        "center": {
+          "lng": 7.610592488938323,
+          "lat": 51.94017133536644
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 79.99536895751953,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1763.0484108924866
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:59:21.026Z",
+      "position": {
+        "timestamp": 1724151560000,
+        "coords": {
+          "heading": -1,
+          "longitude": 7.627098866426931,
+          "altitude": 56.133081768639386,
+          "altitudeAccuracy": 1.3785326745217166,
+          "speed": 0.29748478396026423,
+          "latitude": 51.965019135623294,
+          "accuracy": 7.456028133074627
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.57873419310377,
+            "lat": 51.89405887100088
+          },
+          "_ne": {
+            "lng": 7.649662377962358,
+            "lat": 51.97937215005746
+          }
+        },
+        "center": {
+          "lng": 7.614198285533348,
+          "lat": 51.93673578840867
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 60.717002868652344,
+      "interaction": {
+        "panCount": 16,
+        "zoomCount": 12.5,
+        "rotation": 1778.3850121498108
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:59:22.033Z",
+      "position": {
+        "timestamp": 1724151561000,
+        "coords": {
+          "latitude": 51.96502339057267,
+          "altitude": 56.09017383214086,
+          "accuracy": 7.352632521450872,
+          "altitudeAccuracy": 1.4028334318198692,
+          "speed": 0.16090296580675575,
+          "longitude": 7.627090812866922,
+          "heading": -1
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.578867130107085,
+            "lat": 51.89393208521079
+          },
+          "_ne": {
+            "lng": 7.649795314965729,
+            "lat": 51.979245605121065
+          }
+        },
+        "center": {
+          "lng": 7.614331222537089,
+          "lat": 51.93660912306888
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 76.31144714355469,
+      "interaction": {
+        "panCount": 17,
+        "zoomCount": 12.5,
+        "rotation": 1793.7669701576233
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:59:23.039Z",
+      "position": {
+        "timestamp": 1724151562000,
+        "coords": {
+          "heading": -1,
+          "altitude": 56.117170873098075,
+          "accuracy": 7.422878833451546,
+          "longitude": 7.6270967675782035,
+          "altitudeAccuracy": 1.4290036754348145,
+          "speed": 0.3082030255359323,
+          "latitude": 51.9650326841976
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.578867130107085,
+            "lat": 51.89393208521079
+          },
+          "_ne": {
+            "lng": 7.649795314965729,
+            "lat": 51.979245605121065
+          }
+        },
+        "center": {
+          "lng": 7.614331222537089,
+          "lat": 51.93660912306888
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 82.9459228515625,
+      "interaction": {
+        "panCount": 17,
+        "zoomCount": 12.5,
+        "rotation": 1793.7669701576233
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:59:24.033Z",
+      "position": {
+        "timestamp": 1724151563000,
+        "coords": {
+          "accuracy": 7.5254044372113755,
+          "latitude": 51.965023861135066,
+          "altitudeAccuracy": 1.4310381143447841,
+          "speed": 0.1614298762930431,
+          "longitude": 7.627103833253502,
+          "altitude": 56.116570635698736,
+          "heading": -1
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.578867130107085,
+            "lat": 51.89393208521079
+          },
+          "_ne": {
+            "lng": 7.649795314965729,
+            "lat": 51.979245605121065
+          }
+        },
+        "center": {
+          "lng": 7.614331222537089,
+          "lat": 51.93660912306888
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 69.88269805908203,
+      "interaction": {
+        "panCount": 17,
+        "zoomCount": 12.5,
+        "rotation": 1793.7669701576233
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:59:25.032Z",
+      "position": {
+        "timestamp": 1724151564000,
+        "coords": {
+          "longitude": 7.627108692084935,
+          "latitude": 51.965025499623465,
+          "speed": 0.128593395031604,
+          "heading": -1,
+          "altitudeAccuracy": 1.4062897182723024,
+          "altitude": 56.15547808539122,
+          "accuracy": 7.522552056722787
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.578867130107085,
+            "lat": 51.89393208521079
+          },
+          "_ne": {
+            "lng": 7.649795314965729,
+            "lat": 51.979245605121065
+          }
+        },
+        "center": {
+          "lng": 7.614331222537089,
+          "lat": 51.93660912306888
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 69.5228271484375,
+      "interaction": {
+        "panCount": 17,
+        "zoomCount": 12.5,
+        "rotation": 1793.7669701576233
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:59:26.031Z",
+      "position": {
+        "timestamp": 1724151565000,
+        "coords": {
+          "speed": 0.07093274309053443,
+          "heading": -1,
+          "altitudeAccuracy": 1.406548877266403,
+          "longitude": 7.6271084685610715,
+          "latitude": 51.96502166803821,
+          "accuracy": 7.911119135694813,
+          "altitude": 56.1339818071574
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.578867130107085,
+            "lat": 51.89393208521079
+          },
+          "_ne": {
+            "lng": 7.649795314965729,
+            "lat": 51.979245605121065
+          }
+        },
+        "center": {
+          "lng": 7.614331222537089,
+          "lat": 51.93660912306888
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 69.45657348632812,
+      "interaction": {
+        "panCount": 17,
+        "zoomCount": 12.5,
+        "rotation": 1793.7669701576233
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:59:27.029Z",
+      "position": {
+        "timestamp": 1724151566000,
+        "coords": {
+          "altitude": 56.11244730185717,
+          "altitudeAccuracy": 1.4093814378451472,
+          "longitude": 7.62712009503105,
+          "heading": -1,
+          "latitude": 51.96502355314725,
+          "speed": 0.26170678603699965,
+          "accuracy": 8.84466550757981
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.578867130107085,
+            "lat": 51.89393208521079
+          },
+          "_ne": {
+            "lng": 7.649795314965729,
+            "lat": 51.979245605121065
+          }
+        },
+        "center": {
+          "lng": 7.614331222537089,
+          "lat": 51.93660912306888
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 72.03533172607422,
+      "interaction": {
+        "panCount": 17,
+        "zoomCount": 12.5,
+        "rotation": 1793.7669701576233
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:59:28.035Z",
+      "position": {
+        "timestamp": 1724151567000,
+        "coords": {
+          "longitude": 7.62713072548519,
+          "latitude": 51.96502557701264,
+          "speed": 0.5396495096715438,
+          "heading": -1,
+          "altitudeAccuracy": 1.4365564474149957,
+          "altitude": 56.10641011502594,
+          "accuracy": 10.755771212796969
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.578867130107085,
+            "lat": 51.89393208521079
+          },
+          "_ne": {
+            "lng": 7.649795314965729,
+            "lat": 51.979245605121065
+          }
+        },
+        "center": {
+          "lng": 7.614331222537089,
+          "lat": 51.93660912306888
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 75.34060668945312,
+      "interaction": {
+        "panCount": 17,
+        "zoomCount": 12.5,
+        "rotation": 1793.7669701576233
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:59:29.034Z",
+      "position": {
+        "timestamp": 1724151568000,
+        "coords": {
+          "altitude": 56.06135036051273,
+          "altitudeAccuracy": 1.4369120660791495,
+          "longitude": 7.627124882574737,
+          "heading": 143.24276719561266,
+          "latitude": 51.96501722244799,
+          "speed": 0.8031184405823253,
+          "accuracy": 9.834278701837146
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.578867130107085,
+            "lat": 51.89393208521079
+          },
+          "_ne": {
+            "lng": 7.649795314965729,
+            "lat": 51.979245605121065
+          }
+        },
+        "center": {
+          "lng": 7.614331222537089,
+          "lat": 51.93660912306888
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 57.57194519042969,
+      "interaction": {
+        "panCount": 17,
+        "zoomCount": 12.5,
+        "rotation": 1817.405695438385
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:59:30.038Z",
+      "position": {
+        "timestamp": 1724151569001,
+        "coords": {
+          "longitude": 7.627129471618976,
+          "latitude": 51.96503139099783,
+          "speed": 0.5932559244217898,
+          "heading": -1,
+          "altitudeAccuracy": 1.282141134708495,
+          "altitude": 55.844785103574395,
+          "accuracy": 8.421628385729067
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.578867130107085,
+            "lat": 51.89393208521079
+          },
+          "_ne": {
+            "lng": 7.649795314965729,
+            "lat": 51.979245605121065
+          }
+        },
+        "center": {
+          "lng": 7.614331222537089,
+          "lat": 51.93660912306888
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 62.83002471923828,
+      "interaction": {
+        "panCount": 17,
+        "zoomCount": 12.5,
+        "rotation": 1817.405695438385
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:59:31.040Z",
+      "position": {
+        "timestamp": 1724151569999,
+        "coords": {
+          "longitude": 7.6271492044774964,
+          "latitude": 51.965021262207365,
+          "speed": 0.4399461602311156,
+          "heading": -1,
+          "altitudeAccuracy": 1.199993586288226,
+          "altitude": 56.155085678212345,
+          "accuracy": 8.766451660603398
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.578867130107085,
+            "lat": 51.89393208521079
+          },
+          "_ne": {
+            "lng": 7.649795314965729,
+            "lat": 51.979245605121065
+          }
+        },
+        "center": {
+          "lng": 7.614331222537089,
+          "lat": 51.93660912306888
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 73.57350158691406,
+      "interaction": {
+        "panCount": 17,
+        "zoomCount": 12.5,
+        "rotation": 1833.4072518348694
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:59:32.041Z",
+      "position": {
+        "timestamp": 1724151570999,
+        "coords": {
+          "altitude": 55.943475981242955,
+          "speed": 0.2088844351348743,
+          "accuracy": 9.08040876019244,
+          "latitude": 51.96502201901924,
+          "altitudeAccuracy": 1.1428097103320811,
+          "longitude": 7.627156218302425,
+          "heading": -1
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.578867130107085,
+            "lat": 51.89393208521079
+          },
+          "_ne": {
+            "lng": 7.649795314965729,
+            "lat": 51.979245605121065
+          }
+        },
+        "center": {
+          "lng": 7.614331222537089,
+          "lat": 51.93660912306888
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 10.976513862609863,
+      "interaction": {
+        "panCount": 17,
+        "zoomCount": 12.5,
+        "rotation": 1896.0042395591736
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    },
+    {
+      "timestamp": "2024-08-20T10:59:33.035Z",
+      "position": {
+        "coords": {
+          "altitude": 56.06176455877721,
+          "speed": 0.43968245009289003,
+          "accuracy": 9.369066786381874,
+          "latitude": 51.96503238975096,
+          "altitudeAccuracy": 1.101703398419722,
+          "longitude": 7.627170384393624,
+          "heading": -1
+        },
+        "timestamp": 1724151571999
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.578867130107085,
+            "lat": 51.89393208521079
+          },
+          "_ne": {
+            "lng": 7.649795314965729,
+            "lat": 51.979245605121065
+          }
+        },
+        "center": {
+          "lng": 7.614331222537089,
+          "lat": 51.93660912306888
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 356.9343566894531,
+      "interaction": {
+        "panCount": 17,
+        "zoomCount": 12.5,
+        "rotation": 1896.0042395591736
+      },
+      "taskNo": 1,
+      "taskCategory": "nav"
+    }
+  ],
+  "events": [
+    {
+      "type": "INIT_GAME",
+      "timestamp": "2024-08-20T10:57:14.826Z",
+      "position": {
+        "timestamp": 1724151434309,
+        "coords": {
+          "latitude": 51.96532536354722,
+          "speed": -1,
+          "longitude": 7.626712324525177,
+          "accuracy": 35,
+          "altitudeAccuracy": 26.62129020690918,
+          "altitude": 59.01311111450195,
+          "heading": -1
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": -29.617187500000483,
+            "lat": -12.525266041279451
+          },
+          "_ne": {
+            "lng": 45.6171874999994,
+            "lat": 79.01068497515223
+          }
+        },
+        "center": {
+          "lng": 8,
+          "lat": 51.8
+        },
+        "zoom": 2,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 203.3043670654297,
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotationCount": 0
+      }
+    },
+    {
+      "type": "INIT_TASK",
+      "timestamp": "2024-08-20T10:57:14.827Z",
+      "position": {
+        "timestamp": 1724151434309,
+        "coords": {
+          "latitude": 51.96532536354722,
+          "speed": -1,
+          "longitude": 7.626712324525177,
+          "accuracy": 35,
+          "altitudeAccuracy": 26.62129020690918,
+          "altitude": 59.01311111450195,
+          "heading": -1
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": -29.617187500000483,
+            "lat": -12.525266041279451
+          },
+          "_ne": {
+            "lng": 45.6171874999994,
+            "lat": 79.01068497515223
+          }
+        },
+        "center": {
+          "lng": 8,
+          "lat": 51.8
+        },
+        "zoom": 2,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 203.3043670654297,
+      "task": {
+        "_id": "66c46fc8a03941001c0e39f5",
+        "category": "nav",
+        "type": "nav-flag",
+        "name": "Tasktypes.navigationToFlag",
+        "question": {
+          "type": "TEXT",
+          "text": "Gehe zur Fahne."
+        },
+        "answer": {
+          "type": "POSITION",
+          "position": {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                7.604804749477182,
+                51.95084730345545
+              ]
+            }
+          }
+        },
+        "evaluate": "distanceToPoint",
+        "settings": {
+          "feedback": true,
+          "multipleTries": false,
+          "confirmation": false,
+          "accuracy": 2,
+          "showMarker": true,
+          "keepMarker": false,
+          "keepDrawing": "current",
+          "drawPointOnly": false
+        },
+        "mapFeatures": {
+          "zoombar": "true",
+          "pan": "true",
+          "rotation": "north",
+          "material": "standard",
+          "position": "none",
+          "direction": "none",
+          "track": false,
+          "keepTrack": "current",
+          "streetSection": false,
+          "reducedInformation": false,
+          "landmarks": false,
+          "reducedMapSectionDiameter": 20,
+          "switchLayer": "none"
+        },
+        "createdAt": "2024-08-20T10:28:24.613Z",
+        "updatedAt": "2024-08-20T10:28:24.613Z"
+      },
+      "interaction": {
+        "panCount": 0,
+        "zoomCount": 0,
+        "rotationCount": 0
+      }
+    },
+    {
+      "type": "ON_MAP_CLICKED",
+      "clickPosition": {
+        "latitude": 51.95162304753819,
+        "longitude": 7.604739999999168
+      },
+      "map": "standard",
+      "answer": {
+        "target": [
+          7.604804749477182,
+          51.95084730345545
+        ],
+        "position": {
+          "timestamp": 1724151519000,
+          "coords": {
+            "altitudeAccuracy": 2.1586527104463964,
+            "speed": 0.09806155801631815,
+            "heading": -1,
+            "latitude": 51.965088912781304,
+            "altitude": 56.23102718964219,
+            "longitude": 7.626984288777144,
+            "accuracy": 5.400440306907508
+          }
+        },
+        "distance": 2194.896250395119,
+        "correct": false
+      },
+      "timestamp": "2024-08-20T10:58:39.123Z",
+      "position": {
+        "timestamp": 1724151519000,
+        "coords": {
+          "altitudeAccuracy": 2.1586527104463964,
+          "speed": 0.09806155801631815,
+          "heading": -1,
+          "latitude": 51.965088912781304,
+          "altitude": 56.23102718964219,
+          "longitude": 7.626984288777144,
+          "accuracy": 5.400440306907508
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.59471012871677,
+            "lat": 51.92923681410721
+          },
+          "_ne": {
+            "lng": 7.620570278771339,
+            "lat": 51.96033613040976
+          }
+        },
+        "center": {
+          "lng": 7.607640203745291,
+          "lat": 51.94478916761864
+        },
+        "zoom": 13.506445626030414,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 109.59555053710938,
+      "task": {
+        "_id": "66c46fc8a03941001c0e39f5",
+        "category": "nav",
+        "type": "nav-flag",
+        "name": "Tasktypes.navigationToFlag",
+        "question": {
+          "type": "TEXT",
+          "text": "Gehe zur Fahne."
+        },
+        "answer": {
+          "type": "POSITION",
+          "position": {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                7.604804749477182,
+                51.95084730345545
+              ]
+            }
+          }
+        },
+        "evaluate": "distanceToPoint",
+        "settings": {
+          "feedback": true,
+          "multipleTries": false,
+          "confirmation": false,
+          "accuracy": 2,
+          "showMarker": true,
+          "keepMarker": false,
+          "keepDrawing": "current",
+          "drawPointOnly": false
+        },
+        "mapFeatures": {
+          "zoombar": "true",
+          "pan": "true",
+          "rotation": "north",
+          "material": "standard",
+          "position": "none",
+          "direction": "none",
+          "track": false,
+          "keepTrack": "current",
+          "streetSection": false,
+          "reducedInformation": false,
+          "landmarks": false,
+          "reducedMapSectionDiameter": 20,
+          "switchLayer": "none"
+        },
+        "createdAt": "2024-08-20T10:28:24.613Z",
+        "updatedAt": "2024-08-20T10:28:24.613Z"
+      },
+      "interaction": {
+        "panCount": 13,
+        "zoomCount": 10,
+        "rotationCount": 1107.764030456543
+      }
+    },
+    {
+      "type": "ON_MAP_CLICKED",
+      "clickPosition": {
+        "latitude": 51.95715834317215,
+        "longitude": 7.647003635336063
+      },
+      "map": "standard",
+      "answer": {
+        "target": [
+          7.604804749477182,
+          51.95084730345545
+        ],
+        "position": {
+          "timestamp": 1724151572999,
+          "coords": {
+            "longitude": 7.627218231434587,
+            "accuracy": 9.480424732286242,
+            "latitude": 51.96506381147391,
+            "altitude": 56.07601451780647,
+            "speed": 0.9210335575056857,
+            "altitudeAccuracy": 1.1167297147800772,
+            "heading": 48.8403569271923
+          }
+        },
+        "distance": 2204.0239501475253,
+        "correct": false
+      },
+      "timestamp": "2024-08-20T11:07:59.867Z",
+      "position": {
+        "timestamp": 1724151572999,
+        "coords": {
+          "longitude": 7.627218231434587,
+          "accuracy": 9.480424732286242,
+          "latitude": 51.96506381147391,
+          "altitude": 56.07601451780647,
+          "speed": 0.9210335575056857,
+          "altitudeAccuracy": 1.1167297147800772,
+          "heading": 48.8403569271923
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.577732651058625,
+            "lat": 51.88786406581701
+          },
+          "_ne": {
+            "lng": 7.648660835917184,
+            "lat": 51.97318911259467
+          }
+        },
+        "center": {
+          "lng": 7.613196743487492,
+          "lat": 51.93054686816714
+        },
+        "zoom": 12.050817244816278,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 145.13038635253906,
+      "task": {
+        "_id": "66c46fc8a03941001c0e39f5",
+        "category": "nav",
+        "type": "nav-flag",
+        "name": "Tasktypes.navigationToFlag",
+        "question": {
+          "type": "TEXT",
+          "text": "Gehe zur Fahne."
+        },
+        "answer": {
+          "type": "POSITION",
+          "position": {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                7.604804749477182,
+                51.95084730345545
+              ]
+            }
+          }
+        },
+        "evaluate": "distanceToPoint",
+        "settings": {
+          "feedback": true,
+          "multipleTries": false,
+          "confirmation": false,
+          "accuracy": 2,
+          "showMarker": true,
+          "keepMarker": false,
+          "keepDrawing": "current",
+          "drawPointOnly": false
+        },
+        "mapFeatures": {
+          "zoombar": "true",
+          "pan": "true",
+          "rotation": "north",
+          "material": "standard",
+          "position": "none",
+          "direction": "none",
+          "track": false,
+          "keepTrack": "current",
+          "streetSection": false,
+          "reducedInformation": false,
+          "landmarks": false,
+          "reducedMapSectionDiameter": 20,
+          "switchLayer": "none"
+        },
+        "createdAt": "2024-08-20T10:28:24.613Z",
+        "updatedAt": "2024-08-20T10:28:24.613Z"
+      },
+      "interaction": {
+        "panCount": 18,
+        "zoomCount": 12.5,
+        "rotationCount": 19841.007423877716
+      }
+    },
+    {
+      "type": "FINISHED_GAME",
+      "timestamp": "2024-08-20T11:24:24.307Z",
+      "position": {
+        "timestamp": 1724151572999,
+        "coords": {
+          "longitude": 7.627218231434587,
+          "accuracy": 9.480424732286242,
+          "latitude": 51.96506381147391,
+          "altitude": 56.07601451780647,
+          "speed": 0.9210335575056857,
+          "altitudeAccuracy": 1.1167297147800772,
+          "heading": 48.8403569271923
+        }
+      },
+      "mapViewport": {
+        "bounds": {
+          "_sw": {
+            "lng": 7.558409144907301,
+            "lat": 51.82502190256966
+          },
+          "_ne": {
+            "lng": 7.695508728398352,
+            "lat": 51.99003401955207
+          }
+        },
+        "center": {
+          "lng": 7.626958936653182,
+          "lat": 51.90760374301004
+        },
+        "zoom": 11.100023989402134,
+        "bearing": 0,
+        "pitch": 0
+      },
+      "compassHeading": 218.17726135253906,
+      "task": {
+        "_id": "66c46fc8a03941001c0e39f5",
+        "category": "nav",
+        "type": "nav-flag",
+        "name": "Tasktypes.navigationToFlag",
+        "question": {
+          "type": "TEXT",
+          "text": "Gehe zur Fahne."
+        },
+        "answer": {
+          "type": "POSITION",
+          "position": {
+            "type": "Feature",
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                7.604804749477182,
+                51.95084730345545
+              ]
+            }
+          }
+        },
+        "evaluate": "distanceToPoint",
+        "settings": {
+          "feedback": true,
+          "multipleTries": false,
+          "confirmation": false,
+          "accuracy": 2,
+          "showMarker": true,
+          "keepMarker": false,
+          "keepDrawing": "current",
+          "drawPointOnly": false
+        },
+        "mapFeatures": {
+          "zoombar": "true",
+          "pan": "true",
+          "rotation": "north",
+          "material": "standard",
+          "position": "none",
+          "direction": "none",
+          "track": false,
+          "keepTrack": "current",
+          "streetSection": false,
+          "reducedInformation": false,
+          "landmarks": false,
+          "reducedMapSectionDiameter": 20,
+          "switchLayer": "none"
+        },
+        "createdAt": "2024-08-20T10:28:24.613Z",
+        "updatedAt": "2024-08-20T10:28:24.613Z"
+      },
+      "interaction": {
+        "panCount": 22,
+        "zoomCount": 15.5,
+        "rotationCount": 21314.08191728592
+      }
+    }
+  ],
+  "answers": null,
+  "players": [
+    "Musoso"
+  ],
+  "_id": "66c47ce8a03941001c0e39fe",
+  "game": "66c46fc8a03941001c0e39f4",
+  "name": "Eric_dataNavigationTR",
+  "start": "2024-08-20T10:57:14.826Z",
+  "end": "2024-08-20T11:24:24.309Z",
+  "device": {
+    "model": "iPhone",
+    "platform": "ios",
+    "operatingSystem": "ios",
+    "osVersion": "17.6.1",
+    "isVirtual": false,
+    "appName": "GeoGami",
+    "appVersion": "4.0.0",
+    "appBuild": "1",
+    "appId": "com.ifgi.geogami",
+    "device_name": "iPhone",
+    "device_manufacturer": "Apple"
+  },
+  "playersCount": 1,
+  "createdAt": "2024-08-20T11:24:24.710Z",
+  "updatedAt": "2024-08-20T11:24:24.711Z",
+  "__v": 0
+}
