@@ -1,0 +1,12 @@
+# Exported from Render on 2024-09-17T08:25:06Z
+services:
+- type: web
+  name: wayfinding-performance_app
+  runtime: python
+  repo: https://github.com/Eric-Musoso/wayfinding_performance
+  plan: free
+  region: frankfurt
+  buildCommand: pip install -r requirements.txt
+  startCommand: gunicorn wayfinding:server
+  autoDeploy: false
+version: "1"
