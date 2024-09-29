@@ -88,8 +88,8 @@ gdf = gpd.GeoDataFrame(
 )
 
 # Filter the tasks for navigation (safe copy with .loc[])
-nav_tasks = gdf.loc[(gdf['taskCategory'] == 'nav') & (gdf['taskNo'] == 1)].copy()
-
+nav_tasks = gdf.loc[(gdf['taskCategory'] == 'theme') & (gdf['taskNo'] == 5)].copy()
+print(nav_tasks)
 # Convert 'timestamp' column to datetime safely
 nav_tasks['timestamp'] = pd.to_datetime(nav_tasks['timestamp'])
 # Group by 'participant' and calculate 'duration' and 'route length'
@@ -116,7 +116,7 @@ gdf_lines_projected['Route_length'] = gdf_lines_projected.length / 1000
 gdf_lines_with_length = gdf_lines_projected.to_crs(epsg=4326)
 gdf1_length = pd.merge(gdf_lines_with_length, df_duration, on='participant')
 df_length = pd.DataFrame(gdf1_length.drop(columns='geometry'))
-print(df_length)
+## print(df_length)
 
 # Step 3: Create a function to generate the map
 def create_map(nav_tasks, opacity=0.5, basemap="OpenStreetMap"):
@@ -180,6 +180,7 @@ initial_map_path = create_map(nav_tasks[nav_tasks['participant'] == default_part
 
 # Step 4: Set up Dash App
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
 
 app.layout = dbc.Container([
     dbc.Row([
